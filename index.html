@@ -126,18 +126,30 @@
         </nav>
 
         <div class="flex items-center gap-3">
+          <!-- Desktop Phone (Visible on Laptop/Tablet) -->
           <a
-            href="tel:+910000000000"
-            class="hidden rounded-full border border-brand-line px-4 py-3 text-sm font-semibold text-brand-ink transition hover:border-brand-blue hover:text-brand-blue sm:inline-flex"
+            href="tel:+918792459245"
+            class="hidden lg:inline-flex rounded-full border border-brand-line px-4 py-3 text-sm font-semibold text-brand-ink transition hover:border-brand-blue hover:text-brand-blue"
           >
-            +91 00000 00000
+            +91 87924 59245
           </a>
+          
+          <!-- Mobile Phone Icon (Visible on Phone/Small Tablet) -->
+          <a
+            href="tel:+918792459245"
+            class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-brand-line text-brand-ink transition hover:border-brand-blue hover:text-brand-blue lg:hidden"
+            aria-label="Call Now"
+          >
+            <i class="ph-bold ph-phone-call text-xl"></i>
+          </a>
+
           <a
             href="#contact"
-            class="btn-primary hidden rounded-full px-5 py-3 text-sm font-semibold text-white shadow-float sm:inline-flex"
+            class="btn-primary hidden sm:inline-flex rounded-full px-5 py-3 text-sm font-semibold text-white shadow-float"
           >
             Get Media Plan
           </a>
+
           <a
             href="#mobile-menu-overlay"
             class="mobile-menu-btn inline-flex h-10 w-10 items-center justify-center rounded-full border border-brand-line text-brand-ink transition hover:border-brand-blue hover:text-brand-blue lg:hidden"
@@ -165,7 +177,35 @@
         <nav class="mt-8 flex flex-col gap-6 text-xl font-semibold text-white">
           <a href="#home" class="mobile-nav-link">Home</a>
           <a href="#about" class="mobile-nav-link">About</a>
-          <a href="#services" class="mobile-nav-link">Services</a>
+          <div class="flex flex-col gap-2">
+            <a href="#services" class="mobile-nav-link">Services</a>
+            <div class="ml-4 flex flex-col gap-3 pt-1">
+              <a href="#services" class="mobile-nav-link flex items-center gap-2 text-sm font-medium text-brand-orange">
+                <span class="h-1 w-1 rounded-full bg-brand-orange/40"></span>
+                Transit Advertising
+              </a>
+              <a href="#services" class="mobile-nav-link flex items-center gap-2 text-sm font-medium text-brand-orange">
+                <span class="h-1 w-1 rounded-full bg-brand-orange/40"></span>
+                Outdoor Media
+              </a>
+              <a href="#services" class="mobile-nav-link flex items-center gap-2 text-sm font-medium text-brand-orange">
+                <span class="h-1 w-1 rounded-full bg-brand-orange/40"></span>
+                Cinema Advertising
+              </a>
+              <a href="#services" class="mobile-nav-link flex items-center gap-2 text-sm font-medium text-brand-orange">
+                <span class="h-1 w-1 rounded-full bg-brand-orange/40"></span>
+                WhatsApp Marketing
+              </a>
+              <a href="#services" class="mobile-nav-link flex items-center gap-2 text-sm font-medium text-brand-orange">
+                <span class="h-1 w-1 rounded-full bg-brand-orange/40"></span>
+                Bulk SMS Campaigns
+              </a>
+              <a href="#services" class="mobile-nav-link flex items-center gap-2 text-sm font-medium text-brand-orange">
+                <span class="h-1 w-1 rounded-full bg-brand-orange/40"></span>
+                Digital & BTL
+              </a>
+            </div>
+          </div>
           <a href="#solutions" class="mobile-nav-link">Coverage</a>
           <a href="#contact" class="mobile-nav-link">Contact</a>
         </nav>
@@ -221,11 +261,11 @@
                   View Our Services
                 </a>
                 <a
-                  href="tel:+910000000000"
+                  href="tel:+918792459245"
                   class="btn-outline-light btn-phone inline-flex min-w-[220px] items-center justify-center gap-2.5 rounded-full px-7 py-4 text-sm font-semibold text-white"
                 >
                   <i class="ph-bold ph-phone-call text-lg"></i>
-                  Ph: +91 00000 00000
+                  Ph: +91 87924 59245
                 </a>
               </div>
 
@@ -347,10 +387,10 @@
                   Turn the city's daily commute into your moving billboard. We cover every inch of the urban landscape from hyper-local autos to cross-city bus networks.
                 </p>
                 <div class="flex flex-wrap gap-3">
-                  <span class="px-5 py-2.5 rounded-full border border-brand-line bg-brand-pale text-sm font-medium text-brand-navy">Cab / Ola / Uber</span>
-                  <span class="px-5 py-2.5 rounded-full border border-brand-line bg-brand-pale text-sm font-medium text-brand-navy">Auto Advertising</span>
-                  <span class="px-5 py-2.5 rounded-full border border-brand-line bg-brand-pale text-sm font-medium text-brand-navy">Bus & Metro Ads</span>
-                  <span class="px-5 py-2.5 rounded-full border border-brand-line bg-brand-pale text-sm font-medium text-brand-navy">Full Car Wraps</span>
+                  <span class="px-5 py-2.5 rounded-full border border-[#d93e61]/30 bg-[#d93e61]/5 text-sm font-bold text-[#d93e61]">Cab / Ola / Uber</span>
+                  <span class="px-5 py-2.5 rounded-full border border-[#d93e61]/30 bg-[#d93e61]/5 text-sm font-bold text-[#d93e61]">Auto Advertising</span>
+                  <span class="px-5 py-2.5 rounded-full border border-[#d93e61]/30 bg-[#d93e61]/5 text-sm font-bold text-[#d93e61]">Bus & Metro Ads</span>
+                  <span class="px-5 py-2.5 rounded-full border border-[#d93e61]/30 bg-[#d93e61]/5 text-sm font-bold text-[#d93e61]">Full Car Wraps</span>
                 </div>
               </div>
             </div>
@@ -366,10 +406,10 @@
                   Reach your audience directly in their hands. Our highly targeted SMS, WhatsApp, and AI-driven voice campaigns guarantee immediate visibility and response.
                 </p>
                 <div class="flex flex-wrap gap-3">
-                  <span class="px-5 py-2.5 rounded-full border border-brand-line bg-brand-pale text-sm font-medium text-brand-navy">WhatsApp Marketing</span>
-                  <span class="px-5 py-2.5 rounded-full border border-brand-line bg-brand-pale text-sm font-medium text-brand-navy">Bulk SMS & OBD Voice</span>
-                  <span class="px-5 py-2.5 rounded-full border border-brand-line bg-brand-pale text-sm font-medium text-brand-navy">Cloud Telephony</span>
-                  <span class="px-5 py-2.5 rounded-full border border-brand-line bg-brand-pale text-sm font-medium text-brand-navy">AI Chatbots</span>
+                  <span class="px-5 py-2.5 rounded-full border border-[#2488c9]/30 bg-[#2488c9]/5 text-sm font-bold text-[#2488c9]">WhatsApp Marketing</span>
+                  <span class="px-5 py-2.5 rounded-full border border-[#2488c9]/30 bg-[#2488c9]/5 text-sm font-bold text-[#2488c9]">Bulk SMS & OBD Voice</span>
+                  <span class="px-5 py-2.5 rounded-full border border-[#2488c9]/30 bg-[#2488c9]/5 text-sm font-bold text-[#2488c9]">Cloud Telephony</span>
+                  <span class="px-5 py-2.5 rounded-full border border-[#2488c9]/30 bg-[#2488c9]/5 text-sm font-bold text-[#2488c9]">AI Chatbots</span>
                 </div>
               </div>
               <div class="w-full lg:w-1/2 order-2 lg:order-2 relative">
@@ -405,10 +445,10 @@
                   Capture attention where it matters most. From captive cinema audiences to high-footfall tech parks and airports, our premium network commands attention.
                 </p>
                 <div class="flex flex-wrap gap-3">
-                  <span class="px-5 py-2.5 rounded-full border border-brand-line bg-brand-pale text-sm font-medium text-brand-navy">PVR / INOX Ads</span>
-                  <span class="px-5 py-2.5 rounded-full border border-brand-line bg-brand-pale text-sm font-medium text-brand-navy">Airport Advertising</span>
-                  <span class="px-5 py-2.5 rounded-full border border-brand-line bg-brand-pale text-sm font-medium text-brand-navy">Premium Hoardings</span>
-                  <span class="px-5 py-2.5 rounded-full border border-brand-line bg-brand-pale text-sm font-medium text-brand-navy">Mall Exclusives</span>
+                  <span class="px-5 py-2.5 rounded-full border border-[#db9318]/30 bg-[#db9318]/5 text-sm font-bold text-[#db9318]">PVR / INOX Ads</span>
+                  <span class="px-5 py-2.5 rounded-full border border-[#db9318]/30 bg-[#db9318]/5 text-sm font-bold text-[#db9318]">Airport Advertising</span>
+                  <span class="px-5 py-2.5 rounded-full border border-[#db9318]/30 bg-[#db9318]/5 text-sm font-bold text-[#db9318]">Premium Hoardings</span>
+                  <span class="px-5 py-2.5 rounded-full border border-[#db9318]/30 bg-[#db9318]/5 text-sm font-bold text-[#db9318]">Mall Exclusives</span>
                 </div>
               </div>
             </div>
@@ -424,10 +464,10 @@
                   Bridge the gap between offline awareness and online conversion. We handle end-to-end digital funnels, ensuring your physical campaigns drive real digital ROI.
                 </p>
                 <div class="flex flex-wrap gap-3">
-                  <span class="px-5 py-2.5 rounded-full border border-brand-line bg-brand-pale text-sm font-medium text-brand-navy">SEO / SEM Services</span>
-                  <span class="px-5 py-2.5 rounded-full border border-brand-line bg-brand-pale text-sm font-medium text-brand-navy">Social Media Marketing</span>
-                  <span class="px-5 py-2.5 rounded-full border border-brand-line bg-brand-pale text-sm font-medium text-brand-navy">Lead Generation</span>
-                  <span class="px-5 py-2.5 rounded-full border border-brand-line bg-brand-pale text-sm font-medium text-brand-navy">Web Development</span>
+                  <span class="px-5 py-2.5 rounded-full border border-[#763d90]/30 bg-[#763d90]/5 text-sm font-bold text-[#763d90]">SEO / SEM Services</span>
+                  <span class="px-5 py-2.5 rounded-full border border-[#763d90]/30 bg-[#763d90]/5 text-sm font-bold text-[#763d90]">Social Media Marketing</span>
+                  <span class="px-5 py-2.5 rounded-full border border-[#763d90]/30 bg-[#763d90]/5 text-sm font-bold text-[#763d90]">Lead Generation</span>
+                  <span class="px-5 py-2.5 rounded-full border border-[#763d90]/30 bg-[#763d90]/5 text-sm font-bold text-[#763d90]">Web Development</span>
                 </div>
               </div>
               <div class="w-full lg:w-1/2 order-2 lg:order-2 relative">
@@ -545,7 +585,7 @@
             <p class="inline-flex rounded-full border border-brand-line bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.24em] text-brand-navy/70 mb-5">
               Industries We Serve
             </p>
-            <h2 class="text-4xl font-black tracking-tight text-brand-navy sm:text-5xl">
+            <h2 class="text-[2.6rem] font-black uppercase leading-[0.95] tracking-[-0.04em] text-brand-navy sm:text-6xl lg:text-7xl">
               Precision Marketing For<br/><span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-cyan">High-Competition Categories</span>
             </h2>
             <p class="mt-6 text-lg text-brand-text">
@@ -775,7 +815,7 @@
           <p class="text-sm font-semibold uppercase tracking-[0.18em] text-white/45">Connect</p>
           <ul class="mt-5 space-y-3 text-sm text-white/72">
             <li><a href="mailto:hello@mithrah.me" class="footer-link">hello@mithrah.me</a></li>
-            <li><a href="tel:+910000000000" class="footer-link">+91 00000 00000</a></li>
+            <li><a href="tel:+918792459245" class="footer-link">+91 87924 59245</a></li>
             <li><a href="#" class="footer-link">LinkedIn</a></li>
             <li><a href="#" class="footer-link">Instagram</a></li>
             <li><a href="#" class="footer-link">Facebook</a></li>
@@ -787,7 +827,22 @@
       </div>
     </footer>
 
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Sticky Contact Bar -->
+    <div class="sticky-contact-bar">
+      <div class="contact-bar-inner">
+        <a href="tel:+918792459245" class="contact-item phone-link">
+          <i class="ph-bold ph-phone-call"></i>
+          <span>Call Us</span>
+        </a>
+        <div class="contact-divider"></div>
+        <a href="https://wa.me/918792459245" target="_blank" class="contact-item whatsapp-link">
+          <i class="ph-bold ph-whatsapp-logo"></i>
+          <span>WhatsApp</span>
+        </a>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       (function () {
         const numbers = document.querySelectorAll(".stat-number");
@@ -843,9 +898,11 @@
       const closeMenuBtn = document.getElementById('close-menu-btn');
       const mobileMenu = document.getElementById('mobile-menu');
       const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+      const stickyBar = document.querySelector('.sticky-contact-bar');
 
       function openMenu() {
         mobileMenu.classList.remove('hidden');
+        if (stickyBar) stickyBar.classList.add('hidden');
         // brief timeout to allow display:block to apply before changing opacity
         setTimeout(() => {
           mobileMenu.classList.remove('opacity-0');
@@ -855,6 +912,7 @@
 
       function closeMenu() {
         mobileMenu.classList.add('opacity-0');
+        if (stickyBar) stickyBar.classList.remove('hidden');
         setTimeout(() => {
           mobileMenu.classList.add('hidden');
         }, 300);
