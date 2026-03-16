@@ -1,0 +1,123 @@
+@import url("https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-outfit: "Outfit", sans-serif;
+}
+
+body {
+  @apply text-brand-ink bg-white;
+  font-family: var(--font-outfit);
+  overflow-x: hidden;
+}
+
+/* ── Custom Component Classes ── */
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold text-white shadow-float transition-all duration-200;
+    background: linear-gradient(135deg, #ff6b63, #ff8c42);
+  }
+  .btn-primary:hover {
+    @apply -translate-y-0.5;
+    filter: brightness(1.03);
+  }
+
+  .btn-outline-light {
+    @apply rounded-full border border-white/25 bg-white/10 px-5 py-3 text-sm font-semibold text-white transition-all duration-200;
+  }
+  .btn-outline-light:hover {
+    @apply -translate-y-0.5 bg-white/15 border-white/40;
+  }
+
+  .nav-link {
+    @apply transition-colors duration-200 hover:text-brand-blue;
+  }
+
+  .footer-link {
+    @apply transition-colors duration-200 hover:text-brand-blue;
+  }
+
+  .section-label {
+    @apply text-xs font-bold uppercase tracking-[0.24em] text-brand-text;
+  }
+
+  .section-label-light {
+    @apply text-white/60;
+  }
+
+  .logo-mark {
+    @apply tracking-[-0.04em];
+  }
+
+  .form-input {
+    @apply w-full rounded-2xl border border-brand-line bg-white px-4 py-3 text-brand-ink outline-none transition-all duration-200 placeholder:text-brand-text/60;
+  }
+  .form-input:focus {
+    @apply border-brand-blue/50 ring-4 ring-brand-blue/10;
+  }
+}
+
+/* ── Hero Section ── */
+.hero-section {
+  position: relative;
+  background: linear-gradient(135deg, #11203a 0%, #17335d 55%, #1c3763 100%);
+}
+
+/* ── CTA Shell (Matches Legacy Gradient) ── */
+.cta-shell {
+  background: 
+    radial-gradient(circle at top left, rgba(19, 184, 198, 0.22), transparent 25%),
+    radial-gradient(circle at right center, rgba(255, 140, 66, 0.25), transparent 22%),
+    linear-gradient(135deg, #182746 0%, #234371 55%, #1d3260 100%);
+}
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(7,13,24,0.24), rgba(7,13,24,0.08));
+  pointer-events: none;
+}
+
+/* ── Mega Menu ── */
+.mega-menu-group:hover .mega-menu-panel,
+.mega-menu-group:focus-within .mega-menu-panel {
+  display: block;
+}
+
+.mega-link {
+  @apply transition-all duration-200;
+}
+.mega-link:hover {
+  @apply -translate-y-0.5 shadow-soft;
+}
+
+/* ── Interactive Cards ── */
+@layer utilities {
+  .card-hover {
+    @apply transition-all duration-200;
+  }
+  .card-hover:hover {
+    @apply -translate-y-1 shadow-soft;
+  }
+}
+
+/* ── Sticky Contact Bar ── */
+.sticky-contact-bar {
+  @apply fixed bottom-6 left-1/2 -translate-x-1/2 z-[1000] w-[90%] max-w-[500px] pointer-events-none transition-all duration-300;
+}
+.sticky-contact-bar.hidden {
+  @apply opacity-0 translate-y-5 pointer-events-none;
+}
+
+/* ── Reduced Motion ── */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
