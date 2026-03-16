@@ -4,7 +4,10 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import StickyContactBar from "@/components/layout/StickyContactBar";
-import AOSProvider from "@/components/AOSProvider";
+import dynamic from "next/dynamic";
+const AOSProvider = dynamic(() => import("@/components/AOSProvider"), {
+  ssr: false,
+});
 
 const outfit = Outfit({
   subsets: ["latin"],
