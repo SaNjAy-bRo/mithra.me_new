@@ -35,10 +35,6 @@ export default function ServicePage({ params }: ServicePageProps) {
   return (
     <>
       <ServiceHero hero={service.hero} pillarColor={service.pillarColor} />
-      <FeatureGrid
-        features={service.features}
-        pillarColor={service.pillarColor}
-      />
       {params.slug === "cinema-advertising" && (
         <>
           <TheatreDropdown pillarColor={service.pillarColor} />
@@ -48,6 +44,10 @@ export default function ServicePage({ params }: ServicePageProps) {
       {params.slug === "led-advertising" && (
         <LEDInventory pillarColor={service.pillarColor} />
       )}
+      <FeatureGrid
+        features={service.features}
+        pillarColor={service.pillarColor}
+      />
       <GalleryGrid
         images={service.gallery.images}
         title={service.gallery.title}

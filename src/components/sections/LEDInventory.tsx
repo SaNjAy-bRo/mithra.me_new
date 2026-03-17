@@ -3,6 +3,7 @@
 import { useState } from "react";
 import ledData from "@/lib/led_data.json";
 import { motion, AnimatePresence } from "framer-motion";
+import EnquiryModal from "@/components/ui/EnquiryModal";
 
 const zones = Object.keys(ledData);
 
@@ -17,6 +18,7 @@ interface LEDScreen {
 
 export default function LEDInventory({ pillarColor }: { pillarColor: string }) {
   const [selectedZone, setSelectedZone] = useState(zones[0] || "");
+  const [enquiryTarget, setEnquiryTarget] = useState<string | null>(null);
   const screens = (ledData as Record<string, LEDScreen[]>)[selectedZone] || [];
 
   return (
@@ -100,6 +102,15 @@ export default function LEDInventory({ pillarColor }: { pillarColor: string }) {
                     <h3 className="text-lg font-bold text-brand-navy leading-snug">
                       {screen.location}
                     </h3>
+
+                    <button 
+                      onClick={() => setEnquiryTarget(screen.location)}
+                      className="mt-6 flex items-center gap-2 text-xs font-black uppercase tracking-widest transition-all hover:gap-3"
+                      style={{ color: pillarColor }}
+                    >
+                      Enquiry Now
+                      <i className="ph-bold ph-arrow-right" />
+                    </button>
                   </div>
                   
                   <div className="mt-8 pt-6 border-t border-brand-line/40 grid grid-cols-2 gap-4">
@@ -132,6 +143,13 @@ export default function LEDInventory({ pillarColor }: { pillarColor: string }) {
           </div>
         )}
       </div>
+
+      <EnquiryModal 
+        isOpen={!!enquiryTarget} 
+        onClose={() => setEnquiryTarget(null)} 
+        title={enquiryTarget || ""} 
+        pillarColor={pillarColor} 
+      />
     </section>
   );
 }

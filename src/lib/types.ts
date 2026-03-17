@@ -17,7 +17,7 @@ export interface ServiceData {
   features: {
     title: string;
     description: string;
-    icon: string;
+    image: string;
     items?: string[];
     href?: string;
   }[];

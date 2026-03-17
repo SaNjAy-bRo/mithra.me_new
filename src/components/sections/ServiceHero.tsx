@@ -1,4 +1,6 @@
+"use client";
 import { ServiceData } from "@/lib/types";
+import { motion } from "framer-motion";
 
 interface ServiceHeroProps {
   hero: ServiceData["hero"];
@@ -7,25 +9,31 @@ interface ServiceHeroProps {
 
 export default function ServiceHero({ hero, pillarColor }: ServiceHeroProps) {
   return (
-    <section className="relative overflow-hidden bg-brand-navy py-20 lg:py-32">
+    <section className="relative overflow-hidden bg-brand-navy py-24 lg:py-40">
       <div className="absolute inset-0">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={hero.bgImage}
           alt=""
-          className="h-full w-full object-cover opacity-30 mix-blend-luminosity"
+          className="h-full w-full object-cover opacity-40 mix-blend-luminosity scale-105"
         />
-        <div className={`absolute inset-0 ${hero.gradientOverlay}`} />
+        {/* Primary gradient overlay for depth */}
+        <div className={`absolute inset-0 ${hero.gradientOverlay} opacity-90`} />
+        {/* Secondary dark vignette for edge visibility */}
+        <div className="absolute inset-0 bg-gradient-to-t from-brand-navy via-transparent to-transparent opacity-80" />
       </div>
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl">
-          <div
-            className="inline-flex items-center gap-2 rounded-full border px-4 py-2 text-xs font-bold uppercase tracking-widest backdrop-blur-md mb-6"
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="inline-flex items-center gap-2 rounded-full border px-4 py-2 text-xs font-bold uppercase tracking-widest backdrop-blur-md mb-8 shadow-lg"
             style={{
-              borderColor: `${pillarColor}50`,
-              backgroundColor: `${pillarColor}30`,
-              color: pillarColor,
+              borderColor: `${pillarColor}80`,
+              backgroundColor: `${pillarColor}20`,
+              color: "white",
             }}
           >
             <span
@@ -33,35 +41,51 @@ export default function ServiceHero({ hero, pillarColor }: ServiceHeroProps) {
               style={{ backgroundColor: pillarColor }}
             />
             {hero.badge}
-          </div>
+          </motion.div>
 
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-black text-white tracking-tight leading-[1.1] mb-6">
+          <motion.h1 
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="text-5xl sm:text-6xl lg:text-8xl font-black text-white tracking-tight leading-[1] mb-8 drop-shadow-2xl"
+          >
             {hero.heading}
             <br />
             <span
               className="text-transparent bg-clip-text"
               style={{
-                backgroundImage: `linear-gradient(to right, ${pillarColor}, #ff8c42)`,
+                backgroundImage: `linear-gradient(to right, ${pillarColor}, #ffffff)`,
+                filter: "drop-shadow(0 0 10px rgba(255,255,255,0.2))"
               }}
             >
               {hero.headingHighlight}
             </span>
-          </h1>
+          </motion.h1>
 
-          <p className="text-lg sm:text-xl text-white/80 leading-relaxed max-w-2xl mb-10">
+          <motion.p 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.4 }}
+            className="text-xl sm:text-2xl text-white/90 leading-relaxed max-w-2xl mb-12 font-medium drop-shadow-md"
+          >
             {hero.description}
-          </p>
+          </motion.p>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 pt-6 border-t border-white/10">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.6 }}
+            className="grid grid-cols-2 sm:grid-cols-3 gap-8 pt-8 border-t border-white/20"
+          >
             {hero.stats.map((stat, i) => (
-              <div key={i}>
-                <p className="text-3xl font-black text-white">{stat.value}</p>
-                <p className="text-sm font-medium text-white/60 mt-1">
+              <div key={i} className="group">
+                <p className="text-4xl font-black text-white group-hover:scale-105 transition-transform origin-left">{stat.value}</p>
+                <p className="text-xs font-bold text-white/60 mt-1 uppercase tracking-widest">
                   {stat.label}
                 </p>
               </div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

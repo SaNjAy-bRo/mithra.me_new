@@ -92,29 +92,29 @@ export const services: ServiceData[] = [
         title: "Cab & Taxi Branding",
         description:
           "High-visibility branding across Ola, Uber, and local cab fleets covering 100+ daily km per vehicle.",
-        icon: "ph-car-profile",
+        image: "https://images.unsplash.com/photo-1549813067-12a0a096b282?w=400&h=400&fit=crop",
         items: ["Full car wraps", "Backseat screens", "Branded receipts"],
       },
       {
         title: "Bus Advertising",
         description:
-          "Large-format moving hoardings targeting specific city routes, tech parks, and long-range commuter paths.",
-        icon: "ph-bus",
-        items: ["Full bus wraps", "Interior branding", "Bus shelter ads"],
+          "Massive reach with full body wraps and internal panels across BMTC and state-run transport networks.",
+        image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=400&h=400&fit=crop",
+        items: ["Full wraps", "Inside panels", "Bus shelter ads"],
       },
       {
         title: "In-App Ads (Ola/Uber)",
         description:
           "Complementing the physical wrap, we target passengers during their ride with high-conversion mobile display units directly in their cab booking apps.",
-        icon: "ph-device-mobile",
+        image: "https://images.unsplash.com/photo-1556656793-062ff98782ee?w=400&h=400&fit=crop",
         items: ["Location targeting", "Retargeting pixels", "Campaign analytics"],
       },
       {
-        title: "Auto Advertising",
+        title: "Auto-Rickshaw Media",
         description:
-          "Hyper-local reach through branded auto-rickshaws in high-density neighborhoods.",
-        icon: "ph-scooter",
-        items: ["Back panel ads", "Hood branding", "Interior cards"],
+          "Efficient last-mile visibility in high-density residential and commercial areas.",
+        image: "https://images.unsplash.com/photo-1555627760-bc0b78426021?w=400&h=400&fit=crop",
+        items: ["Rear hood branding", "Back rest ads", "Full hoods"],
       },
     ],
     gallery: {
@@ -165,7 +165,7 @@ export const services: ServiceData[] = [
       description:
         "Combine the mass reach of OOH with the attribution of Digital via our Transit-Digital model. Let's create your fleet plan today.",
       buttonText: "Get Transit Media Rates",
-      icon: "ph-paper-plane-tilt",
+      icon: "ph-car-profile",
     },
   },
   {
@@ -196,7 +196,7 @@ export const services: ServiceData[] = [
         title: "WhatsApp Marketing",
         description:
           "Official WhatsApp Business APIs, verified Green Tick provisioning, rich-media broadcasts, and automated support paths.",
-        icon: "ph-whatsapp-logo",
+        image: "https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?w=400&h=400&fit=crop",
         items: ["Rich media broadcasts", "AI Chatbots", "Green Tick Verification"],
         href: "/services/whatsapp-marketing",
       },
@@ -204,7 +204,7 @@ export const services: ServiceData[] = [
         title: "Bulk SMS Campaigns",
         description:
           "End-to-end DLT compliant promotional and transactional SMS routing with multi-operator failovers.",
-        icon: "ph-chat-circle-text",
+        image: "https://images.unsplash.com/photo-1542744173-8e7e3b275351?w=400&h=400&fit=crop",
         items: ["DLT Compliance", "Transactional OTP", "Failover Routing"],
         href: "/services/bulk-sms",
       },
@@ -212,14 +212,14 @@ export const services: ServiceData[] = [
         title: "Digital Wall Printing",
         description:
           "Automated large-scale fade-resistant printing directly onto rural and urban structures for maximum local penetration.",
-        icon: "ph-printer",
+        image: "/images/Digital Wall Printing/WhatsApp Image 2026-03-07 at 11.20.34 AM (2).jpeg",
         items: ["Weather-proof ink", "High-res urban walls", "Rural reach"],
       },
       {
         title: "OBD Voice & IVR",
         description:
           "Pre-recorded Outbound Voice Dialing and smart IVR menus to engage millions asynchronously in regional languages.",
-        icon: "ph-phone-call",
+        image: "https://images.unsplash.com/photo-1520923642038-b4259ace9439?w=400&h=400&fit=crop",
         items: ["Regional Voice", "Toll-free Provisioning", "Missed Call Marketing"],
       },
     ],
@@ -229,27 +229,35 @@ export const services: ServiceData[] = [
         "Precision printing that turns any wall into a high-impact advertising asset across Bangalore's arteries.",
       images: [
         {
-          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-20 at 3.32.31 PM.jpeg",
+          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-26 at 6.03.40 PM.jpeg",
           alt: "Digital Wall Printing",
         },
         {
-          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-20 at 3.32.32 PM.jpeg",
+          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-26 at 6.03.41 PM.jpeg",
           alt: "Digital Wall Printing",
         },
         {
-          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-20 at 3.32.33 PM.jpeg",
+          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-26 at 6.03.42 PM.jpeg",
           alt: "Digital Wall Printing",
         },
         {
-          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-20 at 3.32.34 PM.jpeg",
+          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-26 at 6.03.43 PM.jpeg",
           alt: "Digital Wall Printing",
         },
         {
-          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-20 at 3.32.35 PM.jpeg",
+          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-26 at 6.03.44 PM.jpeg",
           alt: "Digital Wall Printing",
         },
         {
-          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-20 at 3.32.31 PM (1).jpeg",
+          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-26 at 6.04.12 PM.jpeg",
+          alt: "Digital Wall Printing",
+        },
+        {
+          src: "/images/Digital Wall Printing/WhatsApp Image 2026-03-07 at 11.20.33 AM.jpeg",
+          alt: "Digital Wall Printing",
+        },
+        {
+          src: "/images/Digital Wall Printing/WhatsApp Image 2026-03-07 at 11.20.34 AM.jpeg",
           alt: "Digital Wall Printing",
         },
       ],
@@ -259,7 +267,7 @@ export const services: ServiceData[] = [
       description:
         "Build scalable direct-to-device marketing workflows that guarantee delivery and ROI. Partner with us for robust telecom integrations.",
       buttonText: "Get API & Telecom Pricing",
-      icon: "ph-lightning",
+      icon: "ph-megaphone",
     },
   },
   {
@@ -287,33 +295,33 @@ export const services: ServiceData[] = [
     },
     features: [
       {
-        title: "Cinema Advertising",
+        title: "Multiplex Advertising",
         description:
-          "Unskippable 10-sec/30-sec on-screen ads, lobby standees, and seat branding across PVR & INOX.",
-        icon: "ph-film-strip",
-        items: ["On-screen ads", "Lobby branding", "PVR / INOX Network"],
+          "Targeted exposure to captive audiences in premium cinema lobbies and on-screen.",
+        image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=400&h=400&fit=crop",
+        items: ["On-screen spots", "Lobby displays", "Popcorn tub branding"],
         href: "/services/cinema-advertising",
       },
       {
-        title: "Airport Advertising",
+        title: "Airport Branding",
         description:
-          "Aero-bridge wraps, baggage carousel screens, and departure lounge hoardings in major airports.",
-        icon: "ph-airplane-in-flight",
-        items: ["Arrival halls", "Departure lounges", "Baggage claim"],
+          "Elite reach within departures, arrivals, and premium lounges for high-net-worth individuals.",
+        image: "https://images.unsplash.com/photo-1436491865332-7a61a109c05d?w=400&h=400&fit=crop",
+        items: ["Static panels", "Digital kiosks", "Trolley branding"],
       },
       {
-        title: "Tech Park Advertising",
+        title: "Tech Park Activations",
         description:
-          "Elevator screens, boom barrier branding, and cafeteria activations targeting millions of IT pros.",
-        icon: "ph-buildings",
-        items: ["Lobby standees", "Elevator wraps", "Boom barriers"],
+          "Direct engagement at corporate gate entries and cafeteria zones for the IT workforce.",
+        image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&h=400&fit=crop",
+        items: ["Entry branding", "Cafeteria ads", "Product sampling"],
       },
       {
         title: "Mall & Hoarding Media",
         description:
-          "Strategic placement of large static and digital hoardings at major arterial junctions and mall drop-downs.",
-        icon: "ph-monitor",
-        items: ["Digital LED screens", "Mall atrium ads", "Junction hoardings"],
+          "High-impact oversized billboards and digital mall networks in prime retail hotspots.",
+        image: "/images/features/mallofasia.jpeg",
+        items: ["Backlit hoardings", "Mall standees", "Elevator branding"],
         href: "/services/led-advertising",
       },
     ],
@@ -365,7 +373,7 @@ export const services: ServiceData[] = [
       description:
         "Lock in elite positions across cinema, airport, and tech park networks before your competitors do.",
       buttonText: "Get Premium OOH Rates",
-      icon: "ph-crown",
+      icon: "ph-megaphone",
     },
   },
   {
@@ -396,28 +404,28 @@ export const services: ServiceData[] = [
         title: "Lead Generation",
         description:
           "High-velocity paid media campaigns across Meta, Google, and LinkedIn engineered for aggressive CPL optimization.",
-        icon: "ph-funnel",
+        image: "https://images.unsplash.com/photo-1542744173-8e7e3b275351?w=400&h=400&fit=crop",
         items: ["Meta Ads", "Google Search", "LinkedIn Lead Gen"],
       },
       {
         title: "SEO / SEM Services",
         description:
           "Owning page one. Technical audit, content clustering, deep backlink acquisition, and granular Search Engine Marketing.",
-        icon: "ph-magnifying-glass",
+        image: "https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?w=400&h=400&fit=crop",
         items: ["Technical SEO", "Content Clustering", "Backlink Strategy"],
       },
       {
         title: "Online Reputation Mgmt",
         description:
           "Protecting your digital narrative. Review suppression, proactive PR signaling, and sentiment analysis for enterprise brands.",
-        icon: "ph-shield-check",
+        image: "https://images.unsplash.com/photo-1542744173-8e7e3b275351?w=400&h=400&fit=crop",
         items: ["Review Management", "Sentiment Analysis", "Brand PR"],
       },
       {
         title: "Website Development",
         description:
           "Conversion-optimized landing pages and corporate sites built for lightning speed and SEO mechanics.",
-        icon: "ph-code",
+        image: "https://images.unsplash.com/photo-1542744173-8e7e3b275351?w=400&h=400&fit=crop",
         items: ["Next.js Apps", "Landing Pages", "Speed Optimization"],
       },
     ],
@@ -438,6 +446,18 @@ export const services: ServiceData[] = [
           src: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=2670&auto=format&fit=crop",
           alt: "Social Media",
         },
+        {
+          src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2670&auto=format&fit=crop",
+          alt: "Performance Tracking",
+        },
+        {
+          src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2670&auto=format&fit=crop",
+          alt: "Data Analysis",
+        },
+        {
+          src: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2670&auto=format&fit=crop",
+          alt: "Team Strategy",
+        },
       ],
     },
     cta: {
@@ -445,7 +465,7 @@ export const services: ServiceData[] = [
       description:
         "Book a discovery call to audit your current digital stack and identify growth leakages and massive low-hanging opportunities.",
       buttonText: "Audit My Brand",
-      icon: "ph-rocket-launch",
+      icon: "ph-megaphone",
     },
   },
   {
@@ -476,28 +496,28 @@ export const services: ServiceData[] = [
         title: "MG Road & Brigade Road",
         description:
           "Brigade Road Junction, Trinity Circle, Anil Kumble Circle. L-Shape & Face-to-Traffic screens.",
-        icon: "ph-map-pin",
+        image: "/images/features/mg road.jpeg",
         items: ["High Traffic", "Retail Catchment", "Premium Branding"],
       },
       {
         title: "Koramangala & Indiranagar",
         description:
           "Sony World Junction, Bosch Junction, 100ft Road KFC Junction. Targeting Youth & F&B hubs.",
-        icon: "ph-monitor",
+        image: "/images/features/koramangala.jpeg",
         items: ["Youth Density", "Dining Hubs", "Dynamic Content"],
       },
       {
         title: "Outer Ring Road (ORR)",
         description:
           "Bellandur Flyover, Manyata Tech Park, Silk Board Junction. Massive displays for tech work force.",
-        icon: "ph-buildings",
+        image: "/images/features/outer ring road.jpeg",
         items: ["Tech Corridor", "B2B Reach", "High Dwell Time"],
       },
       {
         title: "Hebbal & Airport Road",
         description:
           "Mekhri Circle, Near Mall of Asia Sahakaranagara. Highway facing screens for HNIs & Travelers.",
-        icon: "ph-airplane",
+        image: "/images/features/hebbal.jpeg",
         items: ["Airport Transit", "Highway Visibility", "Massive Impact"],
       },
     ],
@@ -539,7 +559,7 @@ export const services: ServiceData[] = [
           alt: "LED Van Execution",
         },
         {
-          src: "/images/LED Van/WhatsApp Image 2026-02-28 at 10.27.04 AM (9).jpeg",
+          src: "/images/LED Van/WhatsApp Image 2026-02-28 at 10.27.04 AM (8).jpeg",
           alt: "LED Van Execution",
         },
       ],
@@ -549,7 +569,7 @@ export const services: ServiceData[] = [
       description:
         "High-impact mobile advertising that reaches your audience where they live, work, and play.",
       buttonText: "Get LED Van Rates",
-      icon: "ph-van",
+      icon: "ph-megaphone",
     },
   },
   {
@@ -580,28 +600,28 @@ export const services: ServiceData[] = [
         title: "Orion, Mantri & Mall of Asia",
         description:
           "PVR Orion Mall (Icon), Inox Mantri Square (7 Star), INOX Mall of Asia. West & North Bangalore.",
-        icon: "ph-ticket",
+        image: "/images/features/mantri&mallofasia.jpeg",
         items: ["Premium Catchment", "Icon Screens", "High Footfall"],
       },
       {
         title: "Phoenix, VR & Bhartiya",
         description:
           "PVR Phoenix Market City, PVR VR Mall, PVR Bhartiya Mall. IT Workforce & Youth hubs.",
-        icon: "ph-ticket",
+        image: "/images/features/phoenix vr mall bangalore.jpeg",
         items: ["Tech Corridor", "Youth Hubs", "IT Audience"],
       },
       {
         title: "South Bangalore Network",
         description:
           "PVR Vega City (Platinum), PVR Forum Mall, Inox Garuda Mall (Gold). Premium catchments.",
-        icon: "ph-ticket",
+        image: "/images/features/South Bangalore Network.jpeg",
         items: ["Platinum Screens", "Residential Hub", "Luxury Audience"],
       },
       {
         title: "Tier 2 Karnataka",
         description:
           "Multiplexes in Mysore, Dharwad, Gulbarga & Tumakuru. Capturing rapid growth markets.",
-        icon: "ph-film-strip",
+        image: "/images/features/tier 2 cities in banglore.jpeg",
         items: ["Growth Markets", "Mysore/Dharwad", "Regional Branding"],
       },
     ],
@@ -684,28 +704,28 @@ export const services: ServiceData[] = [
         title: "Sobha & Prestige Communities",
         description:
           "Prestige Lakeside Habitat, Prestige Ferns Residency, Sobha Rose. Targeting Tech Execs & Expats.",
-        icon: "ph-buildings",
+        image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=400&fit=crop",
         items: ["East & IT Hubs", "Whitefield", "Sarjapur Road"],
       },
       {
         title: "Mantri & Salarpuria Network",
         description:
           "Mantri Serenity, Salarpuria Sattva Greenage, Elita Promenade. Targeting Established Families.",
-        icon: "ph-buildings",
+        image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=400&fit=crop",
         items: ["South Bangalore", "Kanakapura Road", "Bommanahalli"],
       },
       {
         title: "Digital Lift & Lobby Displays",
         description:
           "32\" & 24\" Screens in high-dwell areas like Adarsh Palm Retreat and Prestige Falcon City.",
-        icon: "ph-monitor",
+        image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=400&fit=crop",
         items: ["High Dwell Time", "Unmissable Viewership", "Repeated Exposure"],
       },
       {
         title: "Puravankara & Century Corridors",
         description:
           "Century Corbel, Purva Midtown, Sobha City. Targeting Premium Buyers in North & Central Bangalore.",
-        icon: "ph-buildings",
+        image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=400&fit=crop",
         items: ["North Bangalore", "Sahakar Nagar", "Yelahanka"],
       },
     ],
@@ -719,12 +739,24 @@ export const services: ServiceData[] = [
           alt: "Residential Society",
         },
         {
-          src: "https://images.unsplash.com/photo-1515263487990-61b07816b324?q=80&w=2670&auto=format&fit=crop",
-          alt: "Apartment Complex",
+          src: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2670&auto=format&fit=crop",
+          alt: "Apartment Lobby",
         },
         {
           src: "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?q=80&w=2670&auto=format&fit=crop",
           alt: "Lobby Branding",
+        },
+        {
+          src: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2670&auto=format&fit=crop",
+          alt: "Luxury Complex",
+        },
+        {
+          src: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=2670&auto=format&fit=crop",
+          alt: "Society Entrance",
+        },
+        {
+          src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2670&auto=format&fit=crop",
+          alt: "Community Branding",
         },
       ],
     },
@@ -733,7 +765,7 @@ export const services: ServiceData[] = [
       description:
         "We map out household density and NCCS Class so you only spend your budget where your exact demographic lives.",
       buttonText: "Get Audience Mapping Plan",
-      icon: "ph-door",
+      icon: "ph-megaphone",
     },
   },
   {
@@ -764,21 +796,21 @@ export const services: ServiceData[] = [
         title: "Promotional Blasts",
         description:
           "Targeted Pincode / Demographic messaging data pipelines to announce sales and new launches.",
-        icon: "ph-trend-up",
+        image: "https://images.unsplash.com/photo-1542744173-8e7e3b275351?w=400&h=400&fit=crop",
         items: ["Demographic Targeting", "Direct URL Pushes", "Volume Capacity"],
       },
       {
         title: "Transactional & OTP",
         description:
           "Mission-critical high-priority routes for 2FA, OTPs, and Order updates ensuring zero delay.",
-        icon: "ph-shield-check",
+        image: "https://images.unsplash.com/photo-1542744173-8e7e3b275351?w=400&h=400&fit=crop",
         items: ["High Priority Routing", "Order Updates", "2FA Security"],
       },
       {
         title: "DLT Registration Support",
         description:
           "We handle the complete TRAI/DLT registration processes including header and template approvals.",
-        icon: "ph-file-text",
+        image: "https://images.unsplash.com/photo-1542744173-8e7e3b275351?w=400&h=400&fit=crop",
         items: ["TRAI Compliance", "Header Approval", "Template Whitelisting"],
       },
     ],
@@ -790,6 +822,14 @@ export const services: ServiceData[] = [
           src: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2670&auto=format&fit=crop",
           alt: "SMS Routing",
         },
+        {
+          src: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2670&auto=format&fit=crop",
+          alt: "Telecom Infrastructure",
+        },
+        {
+          src: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=2670&auto=format&fit=crop",
+          alt: "Broadcast Center",
+        },
       ],
     },
     cta: {
@@ -797,7 +837,7 @@ export const services: ServiceData[] = [
       description:
         "Partner with us for reliable telecom connectivity and scale your text communications.",
       buttonText: "Get API & Pricing Details",
-      icon: "ph-chat-text",
+      icon: "ph-megaphone",
     },
   },
   {
@@ -828,21 +868,21 @@ export const services: ServiceData[] = [
         title: "Promotional Broadcasts",
         description:
           "Send updates and catalogs directly to millions of opted-in users without risk of blocking.",
-        icon: "ph-megaphone",
+        image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400&h=400&fit=crop",
         items: ["Bulk Broadcasting", "Official API Routes", "Catalog Sharing"],
       },
       {
         title: "AI Chatbot Automation",
         description:
           "Qualify leads and handle support 24/7 with customized conversation flows integrated with CRM.",
-        icon: "ph-robot",
+        image: "https://images.unsplash.com/photo-1542744173-8e7e3b275351?w=400&h=400&fit=crop",
         items: ["Lead Qualification", "24/7 Support", "CRM Integration"],
       },
       {
         title: "Rich Media Support",
         description:
           "Images, HD videos, interactive CTA buttons, and PDF catalogs drive high engagement.",
-        icon: "ph-images",
+        image: "https://images.unsplash.com/photo-1542744173-8e7e3b275351?w=400&h=400&fit=crop",
         items: ["Video Ads", "Interactive CTA", "PDF Catalogs"],
       },
     ],
@@ -854,6 +894,14 @@ export const services: ServiceData[] = [
           src: "https://images.unsplash.com/photo-1611262588024-d12430b98920?q=80&w=2670&auto=format&fit=crop",
           alt: "WhatsApp Interface",
         },
+        {
+          src: "https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?q=80&w=2670&auto=format&fit=crop",
+          alt: "Digital Messaging",
+        },
+        {
+          src: "https://images.unsplash.com/photo-1556656793-062ff98782ee?q=80&w=2670&auto=format&fit=crop",
+          alt: "Mobile Marketing",
+        },
       ],
     },
     cta: {
@@ -861,7 +909,7 @@ export const services: ServiceData[] = [
       description:
         "We assist with Official API onboarding, Whatsapp Business verification, and complete management.",
       buttonText: "Start Broadcasting Now",
-      icon: "ph-whatsapp-logo",
+      icon: "ph-megaphone",
     },
   },
 ];

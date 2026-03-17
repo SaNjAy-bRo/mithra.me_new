@@ -3,6 +3,7 @@
 import { useState } from "react";
 import lobbyData from "@/lib/lobby_data.json";
 import { motion, AnimatePresence } from "framer-motion";
+import EnquiryModal from "@/components/ui/EnquiryModal";
 
 const cities = Object.keys(lobbyData);
 
@@ -16,6 +17,7 @@ interface LobbyLocation {
 
 export default function LobbyDropdown({ pillarColor }: { pillarColor: string }) {
   const [selectedCity, setSelectedCity] = useState(cities[0] || "");
+  const [enquiryTarget, setEnquiryTarget] = useState<string | null>(null);
   const locations = (lobbyData as Record<string, LobbyLocation[]>)[selectedCity] || [];
 
   return (
@@ -107,6 +109,15 @@ export default function LobbyDropdown({ pillarColor }: { pillarColor: string }) 
                     <p className="mt-3 text-sm text-brand-text/70 line-clamp-2 italic">
                       {loc.address}
                     </p>
+                    
+                    <button 
+                      onClick={() => setEnquiryTarget(loc.name)}
+                      className="mt-6 flex items-center gap-2 text-xs font-black uppercase tracking-widest transition-all hover:gap-3"
+                      style={{ color: pillarColor }}
+                    >
+                      Enquiry Now
+                      <i className="ph-bold ph-arrow-right" />
+                    </button>
                   </div>
                   
                   <div className="mt-8 pt-6 border-t border-brand-line/40 flex items-center justify-between">
@@ -139,6 +150,13 @@ export default function LobbyDropdown({ pillarColor }: { pillarColor: string }) 
           </div>
         )}
       </div>
+
+      <EnquiryModal 
+        isOpen={!!enquiryTarget} 
+        onClose={() => setEnquiryTarget(null)} 
+        title={enquiryTarget || ""} 
+        pillarColor={pillarColor} 
+      />
     </section>
   );
 }
