@@ -102,7 +102,7 @@ export default function TheatreDropdown({ pillarColor }: { pillarColor: string }
                         </span>
                       )}
                     </div>
-                    <h3 className="text-xl font-bold text-brand-navy leading-snug group-hover:text-brand-coral transition-colors" style={{ '--hover-color': pillarColor } as any}>
+                    <h3 className="text-xl font-bold text-brand-navy leading-snug group-hover:text-brand-coral transition-colors" style={{ '--hover-color': pillarColor } as React.CSSProperties}>
                       {theater.name}
                     </h3>
                     <p className="mt-3 text-sm text-brand-text/70 line-clamp-2 italic">
@@ -136,7 +136,7 @@ export default function TheatreDropdown({ pillarColor }: { pillarColor: string }
               <i className="ph-bold ph-magnifying-glass text-3xl text-brand-text/20" />
             </div>
             <h3 className="text-xl font-bold text-brand-navy">No theatres found</h3>
-            <p className="mt-2 text-brand-text">We're constantly expanding our network. Check back soon!</p>
+            <p className="mt-2 text-brand-text">We&apos;re constantly expanding our network. Check back soon!</p>
           </div>
         )}
       </div>
