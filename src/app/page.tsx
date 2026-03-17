@@ -94,22 +94,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── CLIENT MARQUEE ── */}
-      <section className="border-b border-brand-line bg-white pb-8 pt-12 overflow-hidden" data-aos="fade-up">
-        <div className="mx-auto mb-8 max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-text">Trusted by 100+ Leading Brands</p>
-        </div>
-        <div className="relative flex whitespace-nowrap">
-          <div className="animate-ticker-scroll flex items-center gap-16 py-4">
-            {["BrandOne", "GlobalCorp", "TechStart", "Nimbus", "ClientX", "AeroDynamics", "MarketFlow", "VentureCap", "Solaris", "Quantum"].map((brand, i) => (
-              <div key={i} className="text-2xl font-black uppercase tracking-widest text-[#d9e3f0]">{brand}</div>
-            ))}
-            {["BrandOne", "GlobalCorp", "TechStart", "Nimbus", "ClientX", "AeroDynamics", "MarketFlow", "VentureCap", "Solaris", "Quantum"].map((brand, i) => (
-              <div key={i+"-dup"} className="text-2xl font-black uppercase tracking-widest text-[#d9e3f0]">{brand}</div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ── SERVICES ── */}
       <section id="services" className="relative bg-white py-16 sm:py-24 lg:py-32 overflow-hidden">

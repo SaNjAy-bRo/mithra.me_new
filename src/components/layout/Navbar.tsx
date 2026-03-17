@@ -75,38 +75,66 @@ export default function Navbar() {
                   </div>
                   <div className="space-y-4">
                     {megaMenuItems.slice(0, 2).map((item) => (
-                      <Link
+                      <div
                         key={item.href}
-                        href={item.href}
-                        className={`mega-link block rounded-2xl border ${item.borderColor} ${item.bgColor} px-4 py-4 ${item.hoverBorderColor} ${item.hoverBgColor} transition-colors`}
+                        className={`mega-link block rounded-2xl border ${item.borderColor} ${item.bgColor} px-4 py-4 transition-colors`}
                       >
-                        <p className={`font-semibold ${item.textColor}`}>
-                          {item.title}
-                        </p>
-                        <p
-                          className={`mt-2 text-sm leading-6 ${item.textColor}/80`}
-                        >
-                          {item.description}
-                        </p>
-                      </Link>
+                        <Link href={item.href} className={`${item.hoverBorderColor} transition-all`}>
+                          <p className={`font-semibold ${item.textColor}`}>
+                            {item.title}
+                          </p>
+                          <p
+                            className={`mt-2 text-sm leading-6 ${item.textColor}/80`}
+                          >
+                            {item.description}
+                          </p>
+                        </Link>
+                        {item.subLinks && (
+                          <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 border-t border-brand-line/20 pt-3">
+                            {item.subLinks.map((sub) => (
+                              <Link
+                                key={sub.href}
+                                href={sub.href}
+                                className={`text-[11px] font-bold uppercase tracking-wider ${item.textColor} hover:underline`}
+                              >
+                                {sub.title}
+                              </Link>
+                            ))}
+                          </div>
+                        )}
+                      </div>
                     ))}
                   </div>
                   <div className="space-y-4">
                     {megaMenuItems.slice(2, 4).map((item) => (
-                      <Link
+                      <div
                         key={item.href}
-                        href={item.href}
-                        className={`mega-link block rounded-2xl border ${item.borderColor} ${item.bgColor} px-4 py-4 ${item.hoverBorderColor} ${item.hoverBgColor} transition-colors`}
+                        className={`mega-link block rounded-2xl border ${item.borderColor} ${item.bgColor} px-4 py-4 transition-colors`}
                       >
-                        <p className={`font-semibold ${item.textColor}`}>
-                          {item.title}
-                        </p>
-                        <p
-                          className={`mt-2 text-sm leading-6 ${item.textColor}/80`}
-                        >
-                          {item.description}
-                        </p>
-                      </Link>
+                        <Link href={item.href} className={`${item.hoverBorderColor} transition-all`}>
+                          <p className={`font-semibold ${item.textColor}`}>
+                            {item.title}
+                          </p>
+                          <p
+                            className={`mt-2 text-sm leading-6 ${item.textColor}/80`}
+                          >
+                            {item.description}
+                          </p>
+                        </Link>
+                        {item.subLinks && (
+                          <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 border-t border-brand-line/20 pt-3">
+                            {item.subLinks.map((sub) => (
+                              <Link
+                                key={sub.href}
+                                href={sub.href}
+                                className={`text-[11px] font-bold uppercase tracking-wider ${item.textColor} hover:underline`}
+                              >
+                                {sub.title}
+                              </Link>
+                            ))}
+                          </div>
+                        )}
+                      </div>
                     ))}
                   </div>
                 </div>
@@ -198,15 +226,30 @@ export default function Navbar() {
               <span className="mobile-nav-link">Services</span>
               <div className="ml-4 flex flex-col gap-3 pt-1">
                 {megaMenuItems.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    onClick={() => setMobileOpen(false)}
-                    className="mobile-nav-link flex items-center gap-2 text-sm font-medium text-brand-orange"
-                  >
-                    <span className="h-1 w-1 rounded-full bg-brand-orange/40" />
-                    {item.title}
-                  </Link>
+                  <div key={item.href} className="flex flex-col gap-2">
+                    <Link
+                      href={item.href}
+                      onClick={() => setMobileOpen(false)}
+                      className="mobile-nav-link flex items-center gap-2 text-sm font-medium text-brand-orange"
+                    >
+                      <span className="h-1 w-1 rounded-full bg-brand-orange/40" />
+                      {item.title}
+                    </Link>
+                    {item.subLinks && (
+                      <div className="ml-6 flex flex-col gap-2 border-l border-white/10 pl-4">
+                        {item.subLinks.map((sub) => (
+                          <Link
+                            key={sub.href}
+                            href={sub.href}
+                            onClick={() => setMobileOpen(false)}
+                            className="text-xs font-medium text-white/60 hover:text-white"
+                          >
+                            {sub.title}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 ))}
               </div>
             </div>

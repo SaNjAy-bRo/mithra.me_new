@@ -52,6 +52,7 @@ export default function Footer() {
               { label: "Transit Media", href: "/services/transit-media" },
               { label: "Digital & Telecom", href: "/services/digital-telecom" },
               { label: "Premium OOH", href: "/services/premium-ooh" },
+              { label: "LED Van Advertising", href: "/services/led-advertising" },
               {
                 label: "Digital Marketing",
                 href: "/services/digital-marketing",

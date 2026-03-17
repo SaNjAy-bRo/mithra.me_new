@@ -43,6 +43,7 @@ export interface MegaMenuItem {
   hoverBorderColor: string;
   hoverBgColor: string;
   textColor: string;
+  subLinks?: { title: string; href: string }[];
 }
 
 export interface NavItem {

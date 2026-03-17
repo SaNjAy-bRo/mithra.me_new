@@ -34,7 +34,7 @@ export const megaMenuItems: MegaMenuItem[] = [
   {
     href: "/services/premium-ooh",
     title: "Premium OOH",
-    description: "Multiplex, airport, and elite tech park placements.",
+    description: "Multiplex, airport, Digital Wall printing, and elite tech parks.",
     borderColor: "border-[#fca311]/30",
     bgColor: "bg-[#fca311]/5",
     hoverBorderColor: "hover:border-[#fca311]",
@@ -74,46 +74,47 @@ export const services: ServiceData[] = [
     hero: {
       badge: "Physical & Digital Convergence",
       heading: "Transit Media &",
-      headingHighlight: "In-App Targeting",
+      headingHighlight: "Fleet Branding",
       description:
-        "Your moving billboard, supercharged. We couple wide-scale Cab, Auto, and Bus physical branding with precise In-App advertising (Ola/Uber) to capture users exactly when they travel.",
+        "Your moving billboard, supercharged. We couple wide-scale Cab, Auto, Bus, and LED Van physical branding to capture users exactly when they travel across the city.",
       bgImage:
         "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=2671&auto=format&fit=crop",
       gradientOverlay:
         "bg-gradient-to-r from-brand-navy via-brand-navy/90 to-brand-navy/40",
       stats: [
         { value: "54K+", label: "Vehicles Ready" },
-        { value: "In-App", label: "Geo-fenced Ads" },
+        { value: "Daily", label: "High Frequency" },
         { value: "City-Wide", label: "Continuous Mileage" },
       ],
     },
     features: [
       {
-        title: "Cab & Taxi Branding",
+        title: "Cab / Ola / Uber",
         description:
           "High-visibility branding across Ola, Uber, and local cab fleets covering 100+ daily km per vehicle.",
-        image: "https://images.unsplash.com/photo-1549813067-12a0a096b282?w=400&h=400&fit=crop",
+        image: "/assets/images/services/transit/cab/WhatsApp Image 2026-03-07 at 1.18.02 PM.jpeg",
         items: ["Full car wraps", "Backseat screens", "Branded receipts"],
       },
       {
-        title: "Bus Advertising",
+        title: "Bus & Metro Ads",
         description:
-          "Massive reach with full body wraps and internal panels across BMTC and state-run transport networks.",
-        image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=400&h=400&fit=crop",
+          "Massive reach with full body wraps and internal panels across BMTC, Metro, and state-run transport networks.",
+        image: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.10 AM.jpeg",
         items: ["Full wraps", "Inside panels", "Bus shelter ads"],
       },
       {
-        title: "In-App Ads (Ola/Uber)",
+        title: "LED Van Advertising",
         description:
-          "Complementing the physical wrap, we target passengers during their ride with high-conversion mobile display units directly in their cab booking apps.",
-        image: "https://images.unsplash.com/photo-1556656793-062ff98782ee?w=400&h=400&fit=crop",
-        items: ["Location targeting", "Retargeting pixels", "Campaign analytics"],
+          "High-impact digital mobile billboards positioned on premium transit routes for maximum frequency and brand recall.",
+        image: "/assets/images/services/transit/led-van/WhatsApp Image 2026-02-28 at 10.27.04 AM.jpeg",
+        items: ["HD Video Content", "GPS Route Planning", "Dynamic Scheduling"],
+        href: "/services/led-advertising",
       },
       {
-        title: "Auto-Rickshaw Media",
+        title: "Auto Advertising",
         description:
           "Efficient last-mile visibility in high-density residential and commercial areas.",
-        image: "https://images.unsplash.com/photo-1555627760-bc0b78426021?w=400&h=400&fit=crop",
+        image: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.07 AM.jpeg",
         items: ["Rear hood branding", "Back rest ads", "Full hoods"],
       },
     ],
@@ -123,40 +124,52 @@ export const services: ServiceData[] = [
         "High-impact fleet branding that takes your message to almost every neighborhood in the city.",
       images: [
         {
-          src: "/images/auto-advertise/WhatsApp Image 2026-03-14 at 10.37.07 AM.jpeg",
+          src: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.07 AM.jpeg",
           alt: "Auto Advertising",
         },
         {
-          src: "/images/auto-advertise/WhatsApp Image 2026-03-14 at 10.37.08 AM.jpeg",
-          alt: "Auto Advertising",
+          src: "/assets/images/services/transit/cab/WhatsApp Image 2026-03-07 at 1.18.02 PM.jpeg",
+          alt: "Cab Branding",
         },
         {
-          src: "/images/auto-advertise/WhatsApp Image 2026-03-14 at 10.37.09 AM.jpeg",
-          alt: "Auto Advertising",
+          src: "/assets/images/services/transit/led-van/WhatsApp Image 2026-02-28 at 10.27.04 AM.jpeg",
+          alt: "LED Van Advertising",
         },
         {
-          src: "/images/auto-advertise/WhatsApp Image 2026-03-14 at 10.37.10 AM.jpeg",
-          alt: "Auto Advertising",
+          src: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.08 AM.jpeg",
+          alt: "Auto Branding",
         },
         {
-          src: "/images/auto-advertise/WhatsApp Image 2026-03-14 at 10.37.11 AM.jpeg",
-          alt: "Auto Advertising",
+          src: "/assets/images/services/transit/cab/WhatsApp Image 2026-03-07 at 1.18.00 PM.jpeg",
+          alt: "Cab Branding",
         },
         {
-          src: "/images/Taxi branding/WhatsApp Image 2026-03-07 at 1.18.02 PM.jpeg",
-          alt: "Taxi Branding",
+          src: "/assets/images/services/transit/led-van/WhatsApp Image 2026-02-28 at 10.27.04 AM (1).jpeg",
+          alt: "LED Mobile Billboard",
         },
         {
-          src: "/images/Taxi branding/WhatsApp Image 2026-03-07 at 1.18.00 PM.jpeg",
-          alt: "Taxi Branding",
+          src: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.09 AM.jpeg",
+          alt: "Auto Media",
         },
         {
-          src: "/images/Taxi branding/WhatsApp Image 2026-03-07 at 1.17.58 PM.jpeg",
-          alt: "Taxi Branding",
+          src: "/assets/images/services/transit/cab/WhatsApp Image 2026-03-07 at 1.17.58 PM.jpeg",
+          alt: "Ola Uber Ads",
         },
         {
-          src: "/images/Taxi branding/WhatsApp Image 2026-03-07 at 1.17.56 PM.jpeg",
-          alt: "Taxi Branding",
+          src: "/assets/images/services/transit/led-van/WhatsApp Image 2026-02-28 at 10.27.04 AM (2).jpeg",
+          alt: "LED Van Execution",
+        },
+        {
+          src: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.10 AM.jpeg",
+          alt: "Bus Advertising",
+        },
+        {
+          src: "/assets/images/services/transit/cab/WhatsApp Image 2026-03-07 at 1.17.56 PM.jpeg",
+          alt: "Transit Media",
+        },
+        {
+          src: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.11 AM.jpeg",
+          alt: "Metro Branding",
         },
       ],
     },
@@ -180,7 +193,7 @@ export const services: ServiceData[] = [
       heading: "Digital &",
       headingHighlight: "Telecom Media",
       description:
-        "Direct, data-driven outreach to billions of active devices. We provide enterprise-grade Digital Wall Printing, WhatsApp APIs, Bulk SMS, and Voice solutions to engage audiences instantly.",
+        "Direct, data-driven outreach to billions of active devices. We provide enterprise-grade WhatsApp APIs, Bulk SMS, and Voice solutions to engage audiences instantly.",
       bgImage:
         "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2670&auto=format&fit=crop",
       gradientOverlay:
@@ -209,13 +222,6 @@ export const services: ServiceData[] = [
         href: "/services/bulk-sms",
       },
       {
-        title: "Digital Wall Printing",
-        description:
-          "Automated large-scale fade-resistant printing directly onto rural and urban structures for maximum local penetration.",
-        image: "/images/Digital Wall Printing/WhatsApp Image 2026-03-07 at 11.20.34 AM (2).jpeg",
-        items: ["Weather-proof ink", "High-res urban walls", "Rural reach"],
-      },
-      {
         title: "OBD Voice & IVR",
         description:
           "Pre-recorded Outbound Voice Dialing and smart IVR menus to engage millions asynchronously in regional languages.",
@@ -224,41 +230,16 @@ export const services: ServiceData[] = [
       },
     ],
     gallery: {
-      title: "Digital Wall Printing in Action",
-      subtitle:
-        "Precision printing that turns any wall into a high-impact advertising asset across Bangalore's arteries.",
+      title: "Direct Engagement",
+      subtitle: "Unmatched reliability across our enterprise-grade messaging networks.",
       images: [
         {
-          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-26 at 6.03.40 PM.jpeg",
-          alt: "Digital Wall Printing",
+          src: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2670&auto=format&fit=crop",
+          alt: "Telecom Infrastructure",
         },
         {
-          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-26 at 6.03.41 PM.jpeg",
-          alt: "Digital Wall Printing",
-        },
-        {
-          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-26 at 6.03.42 PM.jpeg",
-          alt: "Digital Wall Printing",
-        },
-        {
-          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-26 at 6.03.43 PM.jpeg",
-          alt: "Digital Wall Printing",
-        },
-        {
-          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-26 at 6.03.44 PM.jpeg",
-          alt: "Digital Wall Printing",
-        },
-        {
-          src: "/images/Digital Wall Printing/WhatsApp Image 2026-02-26 at 6.04.12 PM.jpeg",
-          alt: "Digital Wall Printing",
-        },
-        {
-          src: "/images/Digital Wall Printing/WhatsApp Image 2026-03-07 at 11.20.33 AM.jpeg",
-          alt: "Digital Wall Printing",
-        },
-        {
-          src: "/images/Digital Wall Printing/WhatsApp Image 2026-03-07 at 11.20.34 AM.jpeg",
-          alt: "Digital Wall Printing",
+          src: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=2670&auto=format&fit=crop",
+          alt: "Broadcast Center",
         },
       ],
     },
@@ -297,8 +278,8 @@ export const services: ServiceData[] = [
       {
         title: "Multiplex Advertising",
         description:
-          "Targeted exposure to captive audiences in premium cinema lobbies and on-screen.",
-        image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=400&h=400&fit=crop",
+          "Targeted exposure to captive audiences in premium cinema lobbies and on-screen across PVR & INOX networks.",
+        image: "/assets/images/services/premium-ooh/led-screen/mantri&mallofasia.jpeg",
         items: ["On-screen spots", "Lobby displays", "Popcorn tub branding"],
         href: "/services/cinema-advertising",
       },
@@ -312,59 +293,68 @@ export const services: ServiceData[] = [
       {
         title: "Tech Park Activations",
         description:
-          "Direct engagement at corporate gate entries and cafeteria zones for the IT workforce.",
-        image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400&h=400&fit=crop",
+          "Direct engagement at corporate gate entries and cafeteria zones for the IT workforce in Manyata, Bagmane, and more.",
+        image: "/assets/images/services/premium-ooh/led-screen/outer ring road.jpeg",
         items: ["Entry branding", "Cafeteria ads", "Product sampling"],
       },
       {
         title: "Mall & Hoarding Media",
         description:
           "High-impact oversized billboards and digital mall networks in prime retail hotspots.",
-        image: "/images/features/mallofasia.jpeg",
+        image: "/assets/images/services/premium-ooh/led-screen/mallofasia.jpeg",
         items: ["Backlit hoardings", "Mall standees", "Elevator branding"],
+      },
+      {
+        title: "Digital Wall Printing",
+        description:
+          "Automated large-scale fade-resistant printing directly onto rural and urban structures for maximum local penetration.",
+        image: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-03-07 at 11.20.34 AM (2).jpeg",
+        items: ["Weather-proof ink", "High-res urban walls", "Rural reach"],
+      },
+      {
+        title: "LED Ad Display",
+        description:
+          "High-definition digital screens at premium traffic junctions and commercial centers.",
+        image: "/assets/images/services/premium-ooh/led-screen/mg road.jpeg",
+        items: ["L-Shape screens", "Face-to-traffic", "Retail hubs"],
         href: "/services/led-advertising",
+      },
+      {
+        title: "Drone Advertising",
+        description:
+          "High-spectacle drone light shows and aerial banner towing for massive impact over grand city events and festivals.",
+        image: "/assets/images/services/premium-ooh/led-screen/outer ring road.jpeg", // Placeholder legacy feature
+        items: ["Drone Light Shows", "Aerial Banners", "Event Spectaculars"],
       },
     ],
     gallery: {
-      title: "Elite Media Placements",
+      title: "Elite Media & Wall Printing",
       subtitle:
-        "Strategically positioned assets across high-dwell time environments.",
+        "Strategically positioned assets across high-dwell time environments and urban arteries.",
       images: [
         {
-          src: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=2670&auto=format&fit=crop",
-          alt: "Cinema Advertising",
+          src: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-02-26 at 6.03.40 PM.jpeg",
+          alt: "Digital Wall Printing",
         },
         {
-          src: "https://images.unsplash.com/photo-1436491865332-7a61a109c0f3?q=80&w=2670&auto=format&fit=crop",
-          alt: "Airport Advertising",
+          src: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-02-26 at 6.03.41 PM.jpeg",
+          alt: "Digital Wall Printing",
         },
         {
-          src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2670&auto=format&fit=crop",
-          alt: "Tech Park Media",
+          src: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-02-26 at 6.03.42 PM.jpeg",
+          alt: "Digital Wall Printing",
         },
         {
-          src: "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?q=80&w=2670&auto=format&fit=crop",
-          alt: "Mall Branding",
+          src: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-02-26 at 6.03.43 PM.jpeg",
+          alt: "Digital Wall Printing",
         },
         {
-          src: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=2670&auto=format&fit=crop",
-          alt: "Luxury Retail",
+          src: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-02-26 at 6.03.44 PM.jpeg",
+          alt: "Digital Wall Printing",
         },
         {
-          src: "https://images.unsplash.com/photo-1622321487661-0f724391307b?q=80&w=2670&auto=format&fit=crop",
-          alt: "Billboard Domination",
-        },
-        {
-          src: "https://images.unsplash.com/photo-1581452410492-35111b154b52?q=80&w=2670&auto=format&fit=crop",
-          alt: "Digital Screens",
-        },
-        {
-          src: "https://images.unsplash.com/photo-1542281286-9e0a16bb7366?q=80&w=2670&auto=format&fit=crop",
-          alt: "Metro Media",
-        },
-        {
-          src: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=2670&auto=format&fit=crop",
-          alt: "Corporate Spaces",
+          src: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-02-26 at 6.04.12 PM.jpeg",
+          alt: "Digital Wall Printing",
         },
       ],
     },
@@ -496,28 +486,28 @@ export const services: ServiceData[] = [
         title: "MG Road & Brigade Road",
         description:
           "Brigade Road Junction, Trinity Circle, Anil Kumble Circle. L-Shape & Face-to-Traffic screens.",
-        image: "/images/features/mg road.jpeg",
+        image: "/assets/images/services/premium-ooh/led-screen/mg road.jpeg",
         items: ["High Traffic", "Retail Catchment", "Premium Branding"],
       },
       {
         title: "Koramangala & Indiranagar",
         description:
           "Sony World Junction, Bosch Junction, 100ft Road KFC Junction. Targeting Youth & F&B hubs.",
-        image: "/images/features/koramangala.jpeg",
+        image: "/assets/images/services/premium-ooh/led-screen/koramangala.jpeg",
         items: ["Youth Density", "Dining Hubs", "Dynamic Content"],
       },
       {
         title: "Outer Ring Road (ORR)",
         description:
           "Bellandur Flyover, Manyata Tech Park, Silk Board Junction. Massive displays for tech work force.",
-        image: "/images/features/outer ring road.jpeg",
+        image: "/assets/images/services/premium-ooh/led-screen/outer ring road.jpeg",
         items: ["Tech Corridor", "B2B Reach", "High Dwell Time"],
       },
       {
         title: "Hebbal & Airport Road",
         description:
           "Mekhri Circle, Near Mall of Asia Sahakaranagara. Highway facing screens for HNIs & Travelers.",
-        image: "/images/features/hebbal.jpeg",
+        image: "/assets/images/services/premium-ooh/led-screen/hebbal.jpeg",
         items: ["Airport Transit", "Highway Visibility", "Massive Impact"],
       },
     ],
@@ -929,7 +919,7 @@ export const homeServices = [
     description:
       "Turn the city's daily commute into your moving billboard. We cover every inch of the urban landscape from hyper-local autos to cross-city bus networks.",
     color: "#ff6b63", // brand-coral
-    tags: ["Cab / Ola / Uber", "Auto Advertising", "Bus & Metro Ads", "Full Car Wraps"],
+    tags: ["Cab / Ola / Uber", "Auto Advertising", "Bus & Metro Ads", "LED Van Advertising"],
     link: "/services/transit-media",
     linkText: "Explore Transit Campaigns",
     image:
@@ -959,7 +949,13 @@ export const homeServices = [
     description:
       "Capture attention where it matters most. From captive cinema audiences to high-footfall tech parks and airports, our premium network commands attention.",
     color: "#ff8c42", // brand-orange
-    tags: ["PVR / INOX Ads", "Airport Advertising", "Premium Hoardings", "Mall Exclusives"],
+    tags: [
+      "PVR / INOX Ads",
+      "Drone Advertising",
+      "LED Ad Display",
+      "Digital Wall Printing",
+      "Airport Branding",
+    ],
     link: "/services/premium-ooh",
     linkText: "Explore Premium OOH",
     image:
