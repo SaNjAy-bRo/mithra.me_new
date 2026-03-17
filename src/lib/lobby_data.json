@@ -1,0 +1,187 @@
+{
+  "BANGALORE": [
+    {
+      "name": "PVR - Orion Mall",
+      "brand": "11",
+      "format": "2861",
+      "units": "22",
+      "address": "BRIGADE GATEWAY, PVR Orion Mall, 3rd Floor, Dr Rajkumar Rd, Malleshwaram (East, Bengaluru, Karnataka 560055"
+    },
+    {
+      "name": "PVR - Vega City Mall",
+      "brand": "12",
+      "format": "1674",
+      "units": "23",
+      "address": "Vega City Mall, Srinivas Industrial Estate, Bannerghatta Rd, Dollar Layout, BTM 2nd Stage, Bengaluru, Karnataka 560076"
+    },
+    {
+      "name": "PVR - Forum Mall",
+      "brand": "11",
+      "format": "1937",
+      "units": "19",
+      "address": "Forum Mall, 3rd Floor, Konanakunte Cross, Kanakapura Road, South Bangalore, Bengaluru, Karnataka 560062, India."
+    },
+    {
+      "name": "PVR - VR Mall",
+      "brand": "9",
+      "format": "1391",
+      "units": "3",
+      "address": "3rd Floor, VR Mall, 408 3rd Cross Singayana Palya, Main, Whitefield Main Rd, Mahadevapura, Bengaluru, Karnataka 560048"
+    },
+    {
+      "name": "PVR - Phoenix Market City BLR",
+      "brand": "9",
+      "format": "1491",
+      "units": "2",
+      "address": "Phoenix Marketcity Mall Whitefield Main Road Mahadevpura, Krishnarajapuram, Bengaluru, Karnataka 560048"
+    },
+    {
+      "name": "The Cinema - GT World",
+      "brand": "5",
+      "format": "1155",
+      "units": "10",
+      "address": "No 92, 3rd Floor GT World Mall, 18/4-1, 15th Cross Rd, Cholourpalya, Bengaluru, Karnataka 560023"
+    },
+    {
+      "name": "Inox - Mantri Square Mall",
+      "brand": "6",
+      "format": "1497",
+      "units": "7",
+      "address": "1, Sampige Rd, Malleshwaram, Bengaluru, Karnataka 560003"
+    },
+    {
+      "name": "Inox - Garuda Central",
+      "brand": "4",
+      "format": "756",
+      "units": "6",
+      "address": "4th Floor, Inox Garuda Mall Yelahanka, 1st A Main Rd, Yelahanka Satellite Town, Yelahanka New Town, Bengaluru, Karnataka 560064"
+    },
+    {
+      "name": "Inox - Garuda Mall",
+      "brand": "5",
+      "format": "1103",
+      "units": "6",
+      "address": "Garuda Mall, 4th Floor, Magrath Rd, Ashok Nagar, Bengaluru, Karnataka 560025"
+    },
+    {
+      "name": "Inox - Forum Value Mall",
+      "brand": "5",
+      "format": "781",
+      "units": "5",
+      "address": "The Forum Neighbourhood Mall, 2nd, 62, Mall, Prestige Ozone, Whitefield, Bengaluru, Karnataka 560066"
+    },
+    {
+      "name": "Inox - SBR Horizon Mall",
+      "brand": "5",
+      "format": "694",
+      "units": "4",
+      "address": "2nd Floor, SBR Horizon, Seegehalli, Whitefield-Hoskote Road, Bangalore, Karnataka 560067"
+    },
+    {
+      "name": "PVR - Orion Uptown Mall",
+      "brand": "5",
+      "format": "876",
+      "units": "4",
+      "address": "7, Old Madras Rd, Kattamanallur, Sannatammanahalli, Bengaluru, Karnataka 560049"
+    },
+    {
+      "name": "Inox - RMZ Galleria",
+      "brand": "5",
+      "format": "1317",
+      "units": "4",
+      "address": "2nd Floor, RMZ Galleria Mall, SH 9, Ambedkar Colony, Yelahanka, Bengaluru, Karnataka 560064"
+    },
+    {
+      "name": "PVR - Soul Space Spirit",
+      "brand": "4",
+      "format": "795",
+      "units": "3",
+      "address": "Soul Space Spirit Central M all, Outer Ring Road, Bellandur, Bengaluru, Karnataka 560037"
+    },
+    {
+      "name": "PVR - Falcon",
+      "brand": "12",
+      "format": "2192",
+      "units": "12",
+      "address": "Forum Mall, 3rd Floor, Konanakunte Cross, Kanakapura Road, South Bangalore, Bengaluru, Karnataka 560062"
+    },
+    {
+      "name": "PVR - Aura Mall",
+      "brand": "4",
+      "format": "696",
+      "units": "2",
+      "address": "3rd Floor, VR Mall, 408 3rd Cross Singayana Palya, Main, Whitefield Main Rd, Mahadevapura, Bengaluru, Karnataka 560048"
+    },
+    {
+      "name": "INOX - Mall of asia",
+      "brand": "14",
+      "format": "2005",
+      "units": "10",
+      "address": "PMC MOA, 3rd Floor, Phoenix Mall of Asia, Byatarayanapura, Bellary Road, Bengaluru, Karnataka 560092"
+    },
+    {
+      "name": "Pvr - Bhartiya Mall",
+      "brand": "7",
+      "format": "1343",
+      "units": "12",
+      "address": "2nd Floor, PVR Bhartiya Mall of Bengaluru, Thanisandra Main Rd, Kannuru, Bengaluru, Karnataka 560064"
+    },
+    {
+      "name": "Pvr - Global",
+      "brand": "7",
+      "format": "1189",
+      "units": "8",
+      "address": "Salarpuria Sattva Divinity Shoping Mall, SALARPURIA SATTVA DIVINITY, Pantarapalya, Nayanda Halli, Bengaluru, Karnataka 560039"
+    }
+  ],
+  "DHARWAD": [
+    {
+      "name": "Inox - Smartcity Mall",
+      "brand": "4",
+      "format": "732",
+      "units": "2",
+      "address": "2nd Floor, C2W7+3CM Smartcity Mall, Vidyagiri, Dharwad, Karnataka 580004"
+    }
+  ],
+  "GULBARGA": [
+    {
+      "name": "Inox - Orchid Mall",
+      "brand": "4",
+      "format": "794",
+      "units": "3",
+      "address": "Orchid Mall, KBN Road, opposite K B N Hospital, Mahaveer Nagar, Khuba Plot, Brhampur, Kalaburagi, Karnataka 585102"
+    }
+  ],
+  "MYSORE": [
+    {
+      "name": "Inox - Mysore Centro",
+      "brand": "4",
+      "format": "474",
+      "units": "4",
+      "address": "Centro, Bangalore Nilgiri Rd, Mysuru3rd Floor, Centro, 8M55+W7P, Bangalore Nilgiri Rd, Lashkar Mohalla, Mandi Mohalla, Mysuru, Karnataka 570001"
+    },
+    {
+      "name": "PVR - Garuda Mall",
+      "brand": "4",
+      "format": "911",
+      "units": "8",
+      "address": "3rd Floor, Garuda Mall, Albert Victor Road, Agrahara, Mysuru, Karnataka 570001, India"
+    },
+    {
+      "name": "PVR - Nexus Centre City Mall",
+      "brand": "6",
+      "format": "1078",
+      "units": "4",
+      "address": "3rd Floor, Nexus CENTRE CITY MALL, Hyderali Rd, Jyothi Nagar, Gayathri Puram, Mysuru, Karnataka 570019"
+    }
+  ],
+  "TUMAKURU": [
+    {
+      "name": "Inox - S Mall",
+      "brand": "5",
+      "format": "1069",
+      "units": "4",
+      "address": "INOX: S Mall, Tumakuru icon INOX Leisure Ltd, 2nd Floor, S Mall, Sira Road, Tumakuru (Tumkur), Karnataka 572106, India"
+    }
+  ]
+}

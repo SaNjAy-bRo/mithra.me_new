@@ -1,0 +1,646 @@
+{
+  "KORAMANGALA": [
+    {
+      "location": "Koramangala 5th Block FTT Nexus Mall-200m to Bharat Petroleum",
+      "width": "12",
+      "height": "20.0",
+      "total_sqft": "240.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "ST. Johns Junction",
+      "width": "20",
+      "height": "20.0",
+      "total_sqft": "400.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Hosur Rd St. Johns Hospital Junction FTT HSR & silk Board & E city",
+      "width": "20",
+      "height": "20.0",
+      "total_sqft": "400.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Koramangala Bosch Junction next to Forum Mall",
+      "width": "31.5",
+      "height": "15.75",
+      "total_sqft": "496.125",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Koramangala Sony World Junction",
+      "width": "20",
+      "height": "20.0",
+      "total_sqft": "400.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "BELLANDUR": [
+    {
+      "location": "Ibbalur Jun opp Manipal Hospital FTT Sarjapura, Bellandur-500m to Indian oil & SHELL",
+      "width": "20",
+      "height": "20.0",
+      "total_sqft": "400.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Bellandur Flyover Central Mall Opp Ecospace FTT Marathahalli",
+      "width": "40",
+      "height": "20.0",
+      "total_sqft": "800.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "MG ROAD": [
+    {
+      "location": "MG Road Brigade Road Junction Towards Trinity Circle/Central Mall towards indian oil",
+      "width": "20",
+      "height": "12.5",
+      "total_sqft": "250.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "MG Road Brigade Road Jn",
+      "width": "31.5",
+      "height": "15.75",
+      "total_sqft": "496.125",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "MG Road Nr Metro ST FTT Trinity Circle",
+      "width": "22",
+      "height": "15.75",
+      "total_sqft": "346.5",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "MG ROAD ANIL KUMBLE CIRCLE FTT CHINNA SWAMY STADIUM",
+      "width": "28",
+      "height": "15.8",
+      "total_sqft": "442.40000000000003",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "CUNNINGHAM ROAD": [
+    {
+      "location": "Cunningham Road near apollo opp Jaguar showroom FTT Indian Oil",
+      "width": "24",
+      "height": "13.0",
+      "total_sqft": "312.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "MYSORE ROAD": [
+    {
+      "location": "Mysore road Satellite bus stop opp to indian oil ftt vijaynagar and mysore ORR",
+      "width": "26",
+      "height": "16.5",
+      "total_sqft": "429.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "ELECTRONIC CITY": [
+    {
+      "location": "Electronic City Neeladri Circle Opp Tanishq twrds city",
+      "width": "26",
+      "height": "16.5",
+      "total_sqft": "429.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "SILK BOARD": [
+    {
+      "location": "Silk board junction opp Indian Oil FTT HSR, Ibbalur, Sarjapura Marathahalli",
+      "width": "22",
+      "height": "22.0",
+      "total_sqft": "484.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "KR PURAM": [
+    {
+      "location": "OMR road TC Palya near HP, Indian oil, Shell & opp A2B FTT City",
+      "width": "28.5",
+      "height": "19.0",
+      "total_sqft": "541.5",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "OMR road TC Palya near HP, Indian oil, Shell & opp A2B FTT Whitefield Hoskote",
+      "width": "28.5",
+      "height": "19.0",
+      "total_sqft": "541.5",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "ITPL": [
+    {
+      "location": "ITPL Main road opp Nandhana Palace whitefield to KR Puram 500m to HP Petrol bunk",
+      "width": "30",
+      "height": "20.0",
+      "total_sqft": "600.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Whitefield Main Road Near Nexus Mall Opp ITPL",
+      "width": "20",
+      "height": "20.0",
+      "total_sqft": "400.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Whitefield Hopefarm Jun",
+      "width": "40",
+      "height": "20.0",
+      "total_sqft": "800.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "PHOENIX MALL FTT WHITEFIELD",
+      "width": "31",
+      "height": "18.0",
+      "total_sqft": "558.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "AIRPORT ROAD": [
+    {
+      "location": "Airport Road, Near Mall of Asia Sahakaranagara, From Hebbal FTT Yelahanka & Airport",
+      "width": "20",
+      "height": "10.0",
+      "total_sqft": "200.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "HENNUR ROAD": [
+    {
+      "location": "Hennur Road, Near Sparsh Hospital FTT Bhartiya Mall Of Bengaluru, Airport (10 sec slot 1 min Loop)_a",
+      "width": "25",
+      "height": "20.0",
+      "total_sqft": "500.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Hennur Road, Near Empire Restaurant FTT Manyatha Tech Park Nagavara, Hebbal",
+      "width": "25",
+      "height": "20.0",
+      "total_sqft": "500.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "MARATHAHALLI": [
+    {
+      "location": "Marathalli, From MG Road, Indiranagara Towards ITPL, Whitefield, Vartur, Sarjapura",
+      "width": "31",
+      "height": "22.0",
+      "total_sqft": "682.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Marathalli Ring Road, Opp JP Morgan From IPTL, Whitefield Towards Ecospace Tech Park Bellandur, Iblur, Sarjapura",
+      "width": "25",
+      "height": "25.0",
+      "total_sqft": "625.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Marathahalli Junctions Opp KLM Fashion Mall FTT HAL & City",
+      "width": "25",
+      "height": "22.0",
+      "total_sqft": "550.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Marathahalli Main Road Signal Junction",
+      "width": "22",
+      "height": "22.0",
+      "total_sqft": "484.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "KANAKAPURA ROAD": [
+    {
+      "location": "Kanakapura Road, From Jayanagara, JP Nagara FTT Forum Mall, Art of Living _ Kanakapura",
+      "width": "20",
+      "height": "20.0",
+      "total_sqft": "400.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "JAYANAGAR": [
+    {
+      "location": "Jayanagar 4th Block, 34th Crs Rd FTF Jayanagar FTT JP Nagar",
+      "width": "16",
+      "height": "32.0",
+      "total_sqft": "512.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Jayanagar 4th Block 11th Mn Rd Opp AVR Jewels",
+      "width": "10",
+      "height": "20.0",
+      "total_sqft": "200.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Jayanagar Signal 4th T Block Opp GRT & Joy Alukas",
+      "width": "22",
+      "height": "22.0",
+      "total_sqft": "484.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Near Cool Joint Signal",
+      "width": "15",
+      "height": "20.0",
+      "total_sqft": "300.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Ashoka Piller  From Lalbagh South Gate Siddapura Road Twrds Madavanpark , Jayanagar",
+      "width": "19",
+      "height": "31.0",
+      "total_sqft": "589.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Jayanagar Cool Joint Junction Twrds 4th Block, Bus Stand, Shopping Complex & JP Nagar",
+      "width": "50.36",
+      "height": "18.88",
+      "total_sqft": "950.7968",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "JP NAGAR": [
+    {
+      "location": "Jp Nagar Sarakki Junc FTT Banashankari & Bannerghatta Road",
+      "width": "20",
+      "height": "20.0",
+      "total_sqft": "400.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "WILSON GARDEN": [
+    {
+      "location": "Wilson Garden Arion Hospital towards Forum",
+      "width": "25",
+      "height": "20.0",
+      "total_sqft": "500.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "DOUBLE ROAD": [
+    {
+      "location": "KH Road Mission Road Jun FTT Double Road & Lalbagh Road",
+      "width": "20",
+      "height": "15.0",
+      "total_sqft": "300.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "HSR": [
+    {
+      "location": "HSR Layout 5th Main Sector 6 above stories",
+      "width": "36",
+      "height": "13.0",
+      "total_sqft": "468.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "INDIRANAGAR": [
+    {
+      "location": "Indranagar Bridge FTT Koramangala Ring Road",
+      "width": "16",
+      "height": "25.0",
+      "total_sqft": "400.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "FTF Koramangala Ring Road Before Indiranagar Bridge FTT 100ft Road",
+      "width": "22",
+      "height": "22.0",
+      "total_sqft": "484.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Indiranagar 100 Feet Road Near Sonyworld Junction",
+      "width": "32",
+      "height": "16.0",
+      "total_sqft": "512.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "INDIRANAGAR 100 FT ROAD KFC JUNCTION \u2013 L SHAPE LED",
+      "width": "44",
+      "height": "15.75",
+      "total_sqft": "693.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "BRIGADE ROAD": [
+    {
+      "location": "Brigade road opp.Brigade Towers",
+      "width": "20",
+      "height": "25.0",
+      "total_sqft": "500.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Brigade Road Junction FTT Velara JN",
+      "width": "31",
+      "height": "15.0",
+      "total_sqft": "465.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "RESIDENCY ROAD": [
+    {
+      "location": "Residency Road Brigade Road Junction",
+      "width": "19",
+      "height": "24.0",
+      "total_sqft": "456.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "RESIDENCY ROAD MUSEUM ROAD JUNCTION FTT ST.MARKS RD/MG ROAD",
+      "width": "25",
+      "height": "13.0",
+      "total_sqft": "325.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "RESIDENCY ROAD OPP SAMSUNG OUTLET",
+      "width": "25.2",
+      "height": "22.1",
+      "total_sqft": "556.9200000000001",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "COMMERCIAL STREET": [
+    {
+      "location": "Commercial Street, Safina Plaza Rd",
+      "width": "12.5",
+      "height": "22.0",
+      "total_sqft": "275.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Safina Plaza",
+      "width": "12",
+      "height": "25.0",
+      "total_sqft": "300.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Commercial Street Junction",
+      "width": "32",
+      "height": "20.0",
+      "total_sqft": "640.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Commercial Street Junction\u2013 L SHAPE LED",
+      "width": "34",
+      "height": "15.75",
+      "total_sqft": "535.5",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Commercial Street / Kamaraj Road Near Westside",
+      "width": "28.3",
+      "height": "22.0",
+      "total_sqft": "622.6",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "SANKEY ROAD": [
+    {
+      "location": "Sankey Road Flyover Opp Porsche Showroom FTF Mekri Circle FTT ITC Windsor Manor Bridge",
+      "width": "22.1",
+      "height": "31.4",
+      "total_sqft": "693.94",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Sankey Road Flyover Opp Porsche Showroom FTF ITC Windsor Manor Bridge FTT Mekri Circle",
+      "width": "22.1",
+      "height": "31.4",
+      "total_sqft": "693.94",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "KALYAN NAGAR": [
+    {
+      "location": "Kalyan Nagar, Nr Royal Concorde Internation School",
+      "width": "31.5",
+      "height": "22.05",
+      "total_sqft": "694.575",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "ASHOKA NAGAR": [
+    {
+      "location": "Opp Garuda Mall Magrath road",
+      "width": "20",
+      "height": "16.0",
+      "total_sqft": "320.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "HSR LAYOUT": [
+    {
+      "location": "HSR Layout Flyover FTT Bellandur & Sarjapur Road",
+      "width": "25",
+      "height": "22.0",
+      "total_sqft": "550.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "JC ROAD": [
+    {
+      "location": "JC Road Near Town Hall FTT Majestic & MG Road",
+      "width": "32",
+      "height": "16.0",
+      "total_sqft": "512.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "BTM LAYOUT": [
+    {
+      "location": "BTM Layout Junction FTT Jayanagar",
+      "width": "22",
+      "height": "16.0",
+      "total_sqft": "352.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "RAJAJINAGAR": [
+    {
+      "location": "Rajajinagar Near Bashyam Circle Junction",
+      "width": "28",
+      "height": "16.0",
+      "total_sqft": "448.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "MANYATA ORR": [
+    {
+      "location": "Manyata Tech Park Nagawara Junction",
+      "width": "25",
+      "height": "25.0",
+      "total_sqft": "625.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "NAGAWARA ORR": [
+    {
+      "location": "Nagawara Opp Manyata Tech Park FTT Hebbal Jun",
+      "width": "32",
+      "height": "16.0",
+      "total_sqft": "512.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "YESHWANTHPUR": [
+    {
+      "location": "Yeshwanthpur Jun FTT WTC, Orion Mall & Malleshwaram, City ( L Shape )",
+      "width": "23+16",
+      "height": "20.0",
+      "total_sqft": "780.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "HEBBAL": [
+    {
+      "location": "Hebbal Main Road Next To Mekhri Circle FTT City",
+      "width": "32",
+      "height": "16.0",
+      "total_sqft": "512.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    },
+    {
+      "location": "Hebbal Ring Road Near Lumbini Garden FTT Manyata Teck Park",
+      "width": "32",
+      "height": "20.0",
+      "total_sqft": "640.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "UB CITY": [
+    {
+      "location": "UB City",
+      "width": "26",
+      "height": "16.0",
+      "total_sqft": "416.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "ULSOOR": [
+    {
+      "location": "Ulsoor Police StationFTT-Indira Nagar",
+      "width": "28.5",
+      "height": "15.75",
+      "total_sqft": "448.875",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "IBALUR": [
+    {
+      "location": "Iblur traffic towards Sarjapur",
+      "width": "41",
+      "height": "22.0",
+      "total_sqft": "902.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "HOSUR ROAD": [
+    {
+      "location": "Hosur Road Nr Baldwin School Traffic towards Vellara JN",
+      "width": "41",
+      "height": "22.0",
+      "total_sqft": "902.0",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ],
+  "RICHMOND ROAD": [
+    {
+      "location": "Vellera Junction Twrds Richmond Circle, Museum Road, Brigade Road, Adugodi & Koramangala",
+      "width": "50.36",
+      "height": "18.88",
+      "total_sqft": "950.7968",
+      "type": "LED",
+      "availability": "10 sec slot"
+    }
+  ]
+}

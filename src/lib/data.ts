@@ -292,6 +292,7 @@ export const services: ServiceData[] = [
           "Unskippable 10-sec/30-sec on-screen ads, lobby standees, and seat branding across PVR & INOX.",
         icon: "ph-film-strip",
         items: ["On-screen ads", "Lobby branding", "PVR / INOX Network"],
+        href: "/services/cinema-advertising",
       },
       {
         title: "Airport Advertising",
@@ -313,6 +314,7 @@ export const services: ServiceData[] = [
           "Strategic placement of large static and digital hoardings at major arterial junctions and mall drop-downs.",
         icon: "ph-monitor",
         items: ["Digital LED screens", "Mall atrium ads", "Junction hoardings"],
+        href: "/services/led-advertising",
       },
     ],
     gallery: {

@@ -1,0 +1,417 @@
+{
+  "BANGALORE": [
+    {
+      "name": "INOX BROOKE FIELD MALL - 1 - BANGALORE-113",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 113
+    },
+    {
+      "name": "INOX BROOKE FIELD MALL - 2 - BANGALORE-116",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 116
+    },
+    {
+      "name": "INOX BROOKE FIELD MALL - 3 - BANGALORE-109",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 109
+    },
+    {
+      "name": "INOX CENTRAL, JP NAGAR - 1 - BANGALORE-347",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 347
+    },
+    {
+      "name": "INOX CENTRAL, JP NAGAR - 2 - BANGALORE-251",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 251
+    },
+    {
+      "name": "INOX CENTRAL, JP NAGAR - 3 - BANGALORE-260",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 260
+    },
+    {
+      "name": "INOX CENTRAL, JP NAGAR - 4 - BANGALORE-260",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 260
+    },
+    {
+      "name": "INOX FORUM NEIGHBOURHOOD MALL, WHITEFIELD - 1 - BANGALORE-218",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 218
+    },
+    {
+      "name": "INOX FORUM NEIGHBOURHOOD MALL, WHITEFIELD - 2 - BANGALORE-198",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 198
+    },
+    {
+      "name": "INOX FORUM NEIGHBOURHOOD MALL, WHITEFIELD - 3 (INSIGNIA SCREEN) - BANGALORE-51",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 51
+    },
+    {
+      "name": "INOX FORUM NEIGHBOURHOOD MALL, WHITEFIELD - 4 - BANGALORE-157",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 157
+    },
+    {
+      "name": "INOX FORUM NEIGHBOURHOOD MALL, WHITEFIELD - 5 - BANGALORE-157",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 157
+    },
+    {
+      "name": "INOX GARUDA CENTRAL, YELAHANKA - 1 - BANGALORE-183",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 183
+    },
+    {
+      "name": "INOX GARUDA CENTRAL, YELAHANKA - 2 - BANGALORE-183",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 183
+    },
+    {
+      "name": "INOX GARUDA CENTRAL, YELAHANKA - 3 - BANGALORE-195",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 195
+    },
+    {
+      "name": "INOX GARUDA CENTRAL, YELAHANKA - 4 - BANGALORE-195",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 195
+    },
+    {
+      "name": "INOX GARUDA MALL, MAGRATH ROAD - 1 - BANGALORE-219",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 219
+    },
+    {
+      "name": "INOX GARUDA MALL, MAGRATH ROAD - 2 (INSIGNIA SCREEN) - BANGALORE-66",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 66
+    },
+    {
+      "name": "INOX GARUDA MALL, MAGRATH ROAD - 3 - BANGALORE-175",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 175
+    },
+    {
+      "name": "INOX GARUDA MALL, MAGRATH ROAD - 4 - BANGALORE-192",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 192
+    },
+    {
+      "name": "INOX GARUDA MALL, MAGRATH ROAD - 5 - BANGALORE-214",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 214
+    },
+    {
+      "name": "INOX LIDO MALL, ULSOOR - 1 - BANGALORE-353",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 353
+    },
+    {
+      "name": "INOX LIDO MALL, ULSOOR - 2 - BANGALORE-169",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 169
+    },
+    {
+      "name": "INOX LIDO MALL, ULSOOR - 3 - BANGALORE-314",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 314
+    },
+    {
+      "name": "INOX LIDO MALL, ULSOOR - 4 - BANGALORE-157",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 157
+    },
+    {
+      "name": "INOX MANTRI SQUARE MALL, MALLESHWARAM - 1 - BANGALORE-286",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 286
+    },
+    {
+      "name": "INOX MANTRI SQUARE MALL, MALLESHWARAM - 2 - BANGALORE-225",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 225
+    },
+    {
+      "name": "INOX MANTRI SQUARE MALL, MALLESHWARAM - 3 (INSIGNIA SCREEN) - BANGALORE-57",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 57
+    },
+    {
+      "name": "INOX MANTRI SQUARE MALL, MALLESHWARAM - 4 (IMAX) - BANGALORE-246",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 246
+    },
+    {
+      "name": "INOX MANTRI SQUARE MALL, MALLESHWARAM - 5 - BANGALORE-300",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 300
+    },
+    {
+      "name": "INOX MANTRI SQUARE MALL, MALLESHWARAM - 6 - BANGALORE-332",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 332
+    },
+    {
+      "name": "INOX RMZ GALLERIA - 1 - BANGALORE-272",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 272
+    },
+    {
+      "name": "INOX RMZ GALLERIA - 2 - BANGALORE-221",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 221
+    },
+    {
+      "name": "INOX RMZ GALLERIA - 3 - BANGALORE-272",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 272
+    },
+    {
+      "name": "INOX RMZ GALLERIA - 4 - BANGALORE-221",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 221
+    },
+    {
+      "name": "INOX RMZ GALLERIA - 5 (IMAX) - BANGALORE-331",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 331
+    },
+    {
+      "name": "INOX SBR HORIZON MALL, SEEGEHALLI - 1 - BANGALORE-110",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 110
+    },
+    {
+      "name": "INOX SBR HORIZON MALL, SEEGEHALLI - 2 - BANGALORE-110",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 110
+    },
+    {
+      "name": "INOX SBR HORIZON MALL, SEEGEHALLI - 3 - BANGALORE-254",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 254
+    },
+    {
+      "name": "INOX SBR HORIZON MALL, SEEGEHALLI - 4 - BANGALORE-110",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 110
+    },
+    {
+      "name": "INOX SBR HORIZON MALL, SEEGEHALLI - 5 - BANGALORE-110",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 110
+    },
+    {
+      "name": "INOX SHREE GARUDA SWAGATH MALL, JAYANAGAR - 1 - BANGALORE-195",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 195
+    },
+    {
+      "name": "INOX SHREE GARUDA SWAGATH MALL, JAYANAGAR - 2 - BANGALORE-286",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 286
+    },
+    {
+      "name": "INOX SHREE GARUDA SWAGATH MALL, JAYANAGAR - 3 - BANGALORE-312",
+      "address": "BANGALORE",
+      "category": "INOX",
+      "capacity": 312
+    }
+  ],
+  "BELGAUM": [
+    {
+      "name": "INOX CHANDAN CINEMA - 1 - BELGAUM-542",
+      "address": "BELGAUM",
+      "category": "INOX",
+      "capacity": 542
+    },
+    {
+      "name": "INOX CHANDAN CINEMA - 2 - BELGAUM-279",
+      "address": "BELGAUM",
+      "category": "INOX",
+      "capacity": 279
+    },
+    {
+      "name": "INOX CHANDAN CINEMA - 3 - BELGAUM-80",
+      "address": "BELGAUM",
+      "category": "INOX",
+      "capacity": 80
+    }
+  ],
+  "GULBARGA": [
+    {
+      "name": "INOX ORCHID MALL, KALABURAGI - 1 - GULBARGA-175",
+      "address": "GULBARGA",
+      "category": "INOX",
+      "capacity": 175
+    },
+    {
+      "name": "INOX ORCHID MALL, KALABURAGI - 2 - GULBARGA-189",
+      "address": "GULBARGA",
+      "category": "INOX",
+      "capacity": 189
+    },
+    {
+      "name": "INOX ORCHID MALL, KALABURAGI - 3 - GULBARGA-208",
+      "address": "GULBARGA",
+      "category": "INOX",
+      "capacity": 208
+    },
+    {
+      "name": "INOX ORCHID MALL, KALABURAGI - 4 - GULBARGA-222",
+      "address": "GULBARGA",
+      "category": "INOX",
+      "capacity": 222
+    }
+  ],
+  "MANIPAL": [
+    {
+      "name": "INOX CENTRAL CINEMAS - 1 - MANIPAL-224",
+      "address": "MANIPAL",
+      "category": "INOX",
+      "capacity": 224
+    },
+    {
+      "name": "INOX CENTRAL CINEMAS - 2 - MANIPAL-98",
+      "address": "MANIPAL",
+      "category": "INOX",
+      "capacity": 98
+    },
+    {
+      "name": "INOX CENTRAL CINEMAS - 3 - MANIPAL-166",
+      "address": "MANIPAL",
+      "category": "INOX",
+      "capacity": 166
+    }
+  ],
+  "MYSORE": [
+    {
+      "name": "INOX CENTRO MYSORE -1-Mysore-126",
+      "address": "Mysore",
+      "category": "Inox",
+      "capacity": 126
+    },
+    {
+      "name": "INOX CENTRO MYSORE -2-Mysore-127",
+      "address": "Mysore",
+      "category": "Inox",
+      "capacity": 127
+    },
+    {
+      "name": "INOX CENTRO MYSORE -3-Mysore-131",
+      "address": "Mysore",
+      "category": "Inox",
+      "capacity": 131
+    },
+    {
+      "name": "INOX CENTRO MYSORE -4-Mysore-90",
+      "address": "Mysore",
+      "category": "Inox",
+      "capacity": 90
+    },
+    {
+      "name": "INOX MALL OF MYSORE - 1 - MYSORE-278",
+      "address": "MYSORE",
+      "category": "INOX",
+      "capacity": 278
+    },
+    {
+      "name": "INOX MALL OF MYSORE - 2 - MYSORE-278",
+      "address": "MYSORE",
+      "category": "INOX",
+      "capacity": 278
+    },
+    {
+      "name": "INOX MALL OF MYSORE - 3 - MYSORE-239",
+      "address": "MYSORE",
+      "category": "INOX",
+      "capacity": 239
+    },
+    {
+      "name": "INOX MALL OF MYSORE - 4 - MYSORE-214",
+      "address": "MYSORE",
+      "category": "INOX",
+      "capacity": 214
+    }
+  ],
+  "TUMAKURU": [
+    {
+      "name": "INOX S MALL, TUMAKURU - 1 - TUMAKURU-270",
+      "address": "TUMAKURU",
+      "category": "INOX",
+      "capacity": 270
+    },
+    {
+      "name": "INOX S MALL, TUMAKURU - 2 - TUMAKURU-330",
+      "address": "TUMAKURU",
+      "category": "INOX",
+      "capacity": 330
+    },
+    {
+      "name": "INOX S MALL, TUMAKURU - 3 - TUMAKURU-296",
+      "address": "TUMAKURU",
+      "category": "INOX",
+      "capacity": 296
+    },
+    {
+      "name": "INOX S MALL, TUMAKURU - 4 - TUMAKURU-140",
+      "address": "TUMAKURU",
+      "category": "INOX",
+      "capacity": 140
+    },
+    {
+      "name": "INOX S MALL, TUMAKURU - 5 (INSIGNIA SCREEN) - TUMAKURU-33",
+      "address": "TUMAKURU",
+      "category": "INOX",
+      "capacity": 33
+    }
+  ],
+  "UNKNOWN": []
+}

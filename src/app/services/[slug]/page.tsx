@@ -24,6 +24,10 @@ export function generateMetadata({ params }: ServicePageProps): Metadata {
   };
 }
 
+import TheatreDropdown from "@/components/sections/TheatreDropdown";
+import LobbyDropdown from "@/components/sections/LobbyDropdown";
+import LEDInventory from "@/components/sections/LEDInventory";
+
 export default function ServicePage({ params }: ServicePageProps) {
   const service = getServiceBySlug(params.slug);
   if (!service) notFound();
@@ -35,6 +39,15 @@ export default function ServicePage({ params }: ServicePageProps) {
         features={service.features}
         pillarColor={service.pillarColor}
       />
+      {params.slug === "cinema-advertising" && (
+        <>
+          <TheatreDropdown pillarColor={service.pillarColor} />
+          <LobbyDropdown pillarColor={service.pillarColor} />
+        </>
+      )}
+      {params.slug === "led-advertising" && (
+        <LEDInventory pillarColor={service.pillarColor} />
+      )}
       <GalleryGrid
         images={service.gallery.images}
         title={service.gallery.title}
