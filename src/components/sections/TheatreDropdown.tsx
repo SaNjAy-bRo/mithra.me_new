@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 import theatersData from "@/lib/theaters_data.json";
 import { motion, AnimatePresence } from "framer-motion";
 import EnquiryModal from "@/components/ui/EnquiryModal";
@@ -8,30 +8,21 @@ import EnquiryModal from "@/components/ui/EnquiryModal";
 const cities = Object.keys(theatersData);
 
 interface Theatre {
+  id: number;
   name: string;
   address: string;
   category: string;
   capacity: number | string;
 }
 
-export default function TheatreDropdown({ pillarColor }: { pillarColor: string }) {
+export default function TheatreDropdown({ pillarColor, isTabbed = false }: { pillarColor: string, isTabbed?: boolean }) {
   const [selectedCity, setSelectedCity] = useState(cities[0] || "");
   const [enquiryTarget, setEnquiryTarget] = useState<string | null>(null);
   const theaters = (theatersData as Record<string, Theatre[]>)[selectedCity] || [];
 
-  return (
-    <section className="py-20 lg:py-32 bg-white relative overflow-hidden">
-      {/* Background accents */}
-      <div 
-        className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-96 h-96 rounded-full blur-[120px] opacity-10 pointer-events-none"
-        style={{ backgroundColor: pillarColor }}
-      />
-      <div 
-        className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/2 w-96 h-96 rounded-full blur-[120px] opacity-10 pointer-events-none"
-        style={{ backgroundColor: pillarColor }}
-      />
-
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
+  const content = (
+    <div className={`mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10 ${isTabbed ? 'py-12' : ''}`}>
+      {!isTabbed && (
         <div className="mb-16 text-center" data-aos="fade-up">
           <h2 className="text-3xl font-bold text-brand-navy sm:text-5xl tracking-tight">
             Our Extensive <span style={{ color: pillarColor }}>Theatre Network</span>
@@ -40,6 +31,7 @@ export default function TheatreDropdown({ pillarColor }: { pillarColor: string }
             Select your city to explore the wide range of premium multiplexes and high-impact single screens available for your campaign.
           </p>
         </div>
+      )}
 
         <div className="flex justify-center mb-16" data-aos="fade-up" data-aos-delay="100">
           <div className="relative w-full max-w-md group">
@@ -70,7 +62,7 @@ export default function TheatreDropdown({ pillarColor }: { pillarColor: string }
 
         <motion.div 
           layout
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
         >
           <AnimatePresence mode="popLayout">
             {theaters.map((theater, index) => (
@@ -86,34 +78,41 @@ export default function TheatreDropdown({ pillarColor }: { pillarColor: string }
                 }}
                 className="group relative h-full"
               >
-                <div className="h-full rounded-3xl border border-brand-line bg-white p-8 shadow-sm hover:shadow-soft transition-all duration-300 flex flex-col justify-between hover:-translate-y-1">
+                <div className="h-full rounded-2xl border border-brand-line bg-white p-6 shadow-sm hover:shadow-soft transition-all duration-300 flex flex-col justify-between hover:-translate-y-1">
                   <div>
-                    <div className="flex items-start justify-between gap-4 mb-6">
+                    <div className="flex items-start justify-between gap-3 mb-5">
                       <div 
-                        className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl"
+                        className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl"
                         style={{ backgroundColor: `${pillarColor}12`, color: pillarColor }}
                       >
-                        <i className="ph-bold ph-film-strip text-2xl" />
+                        <i className="ph-bold ph-film-strip text-xl" />
                       </div>
-                      {theater.category && (
-                        <span 
-                          className="px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-wider"
-                          style={{ backgroundColor: `${pillarColor}10`, color: pillarColor, border: `1px solid ${pillarColor}20` }}
-                        >
-                          {theater.category}
-                        </span>
-                      )}
+                      <div className="flex flex-col items-end gap-1.5">
+                        {theater.id && (
+                          <span className="text-[9px] font-black px-2 py-0.5 bg-brand-pale text-brand-navy/40 rounded-full border border-brand-line/50">
+                            ID: {theater.id}
+                          </span>
+                        )}
+                        {theater.category && (
+                          <span 
+                            className="px-2 py-0.5 rounded-full text-[9px] font-black uppercase tracking-wider"
+                            style={{ backgroundColor: `${pillarColor}10`, color: pillarColor, border: `1px solid ${pillarColor}20` }}
+                          >
+                            {theater.category}
+                          </span>
+                        )}
+                      </div>
                     </div>
-                    <h3 className="text-xl font-bold text-brand-navy leading-snug group-hover:text-brand-coral transition-colors" style={{ '--hover-color': pillarColor } as React.CSSProperties}>
+                    <h3 className="text-base font-bold text-brand-navy leading-snug group-hover:text-brand-coral transition-colors" style={{ '--hover-color': pillarColor } as React.CSSProperties}>
                       {theater.name}
                     </h3>
-                    <p className="mt-3 text-sm text-brand-text/70 line-clamp-2 italic">
+                    <p className="mt-2 text-xs text-brand-text/70 line-clamp-2 italic">
                       {theater.address}
                     </p>
                     
                     <button 
                       onClick={() => setEnquiryTarget(theater.name)}
-                      className="mt-6 flex items-center gap-2 text-xs font-black uppercase tracking-widest transition-all hover:gap-3"
+                      className="mt-5 flex items-center gap-2 text-[10px] font-black uppercase tracking-widest transition-all hover:gap-3"
                       style={{ color: pillarColor }}
                     >
                       Enquiry Now
@@ -121,16 +120,16 @@ export default function TheatreDropdown({ pillarColor }: { pillarColor: string }
                     </button>
                   </div>
                   
-                  <div className="mt-8 pt-6 border-t border-brand-line/40 flex items-center justify-between">
-                    <div className="flex items-center gap-2.5">
-                      <div className="flex h-8 w-8 items-center justify-center rounded-full bg-brand-pale">
-                        <i className="ph-bold ph-users text-brand-navy/60" />
+                  <div className="mt-6 pt-5 border-t border-brand-line/40 flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <div className="flex h-7 w-7 items-center justify-center rounded-full bg-brand-pale">
+                        <i className="ph-bold ph-users text-brand-navy/60 text-xs" />
                       </div>
-                      <span className="text-sm font-bold text-brand-navy">
-                        {theater.capacity || 'TBA'} <span className="text-brand-text/50 font-medium">Seats</span>
+                      <span className="text-xs font-bold text-brand-navy">
+                        {theater.capacity || 'TBA'} <span className="text-brand-text/40 font-medium">Seats</span>
                       </span>
                     </div>
-                    <div className="flex items-center gap-1.5 text-xs font-bold text-brand-text/40 uppercase tracking-widest">
+                    <div className="flex items-center gap-1 text-[9px] font-black text-brand-text/30 uppercase tracking-tighter">
                       <i className="ph-bold ph-map-pin" />
                       <span>{selectedCity}</span>
                     </div>
@@ -151,6 +150,35 @@ export default function TheatreDropdown({ pillarColor }: { pillarColor: string }
           </div>
         )}
       </div>
+    );
+
+  if (isTabbed) {
+    return (
+      <>
+        {content}
+        <EnquiryModal 
+          isOpen={!!enquiryTarget} 
+          onClose={() => setEnquiryTarget(null)} 
+          title={enquiryTarget || ""} 
+          pillarColor={pillarColor} 
+        />
+      </>
+    );
+  }
+
+  return (
+    <section className="py-20 lg:py-32 bg-white relative overflow-hidden">
+      {/* Background accents */}
+      <div 
+        className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-96 h-96 rounded-full blur-[120px] opacity-10 pointer-events-none"
+        style={{ backgroundColor: pillarColor }}
+      />
+      <div 
+        className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/2 w-96 h-96 rounded-full blur-[120px] opacity-10 pointer-events-none"
+        style={{ backgroundColor: pillarColor }}
+      />
+      
+      {content}
 
       <EnquiryModal 
         isOpen={!!enquiryTarget} 

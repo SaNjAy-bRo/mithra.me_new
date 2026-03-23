@@ -67,55 +67,66 @@ export const services: ServiceData[] = [
   {
     slug: "transit-media",
     title: "Transit Media & In-App Targeting",
-    tagline: "Physical & Digital Convergence",
+    tagline: "High-Frequency Mobility Advertising",
     pillar: "transit",
     pillarColor: "#ff6b63",
     pillarColorBg: "bg-brand-coral",
     hero: {
-      badge: "Physical & Digital Convergence",
-      heading: "Transit Media &",
-      headingHighlight: "Fleet Branding",
+      badge: "Your Brand, Travelling Miles",
+      heading: "Massive Mobility",
+      headingHighlight: "Networks",
       description:
-        "Your moving billboard, supercharged. We couple wide-scale Cab, Auto, Bus, and LED Van physical branding to capture users exactly when they travel across the city.",
+        "Dominate the urban landscape with high-impact branding across Cabs, Autos, Busses, Metro, and even In-flight networks. Capture undivided attention during every commute with our pan-India mobility fleet.",
       bgImage:
         "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=2671&auto=format&fit=crop",
       gradientOverlay:
         "bg-gradient-to-r from-brand-navy via-brand-navy/90 to-brand-navy/40",
       stats: [
-        { value: "54K+", label: "Vehicles Ready" },
-        { value: "Daily", label: "High Frequency" },
-        { value: "City-Wide", label: "Continuous Mileage" },
+        { value: "1600+", label: "Daily Flights" },
+        { value: "360k+", label: "Metro Commuters" },
+        { value: "Pan-India", label: "Fleet Reach" },
       ],
     },
     features: [
       {
-        title: "Cab / Ola / Uber",
+        title: "Auto Rickshaw Branding",
         description:
-          "High-visibility branding across Ola, Uber, and local cab fleets covering 100+ daily km per vehicle.",
-        image: "/assets/images/services/transit/cab/WhatsApp Image 2026-03-07 at 1.18.02 PM.jpeg",
-        items: ["Full car wraps", "Backseat screens", "Branded receipts"],
-      },
-      {
-        title: "Bus & Metro Ads",
-        description:
-          "Massive reach with full body wraps and internal panels across BMTC, Metro, and state-run transport networks.",
-        image: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.10 AM.jpeg",
-        items: ["Full wraps", "Inside panels", "Bus shelter ads"],
-      },
-      {
-        title: "LED Van Advertising",
-        description:
-          "High-impact digital mobile billboards positioned on premium transit routes for maximum frequency and brand recall.",
-        image: "/assets/images/services/transit/led-van/WhatsApp Image 2026-02-28 at 10.27.04 AM.jpeg",
-        items: ["HD Video Content", "GPS Route Planning", "Dynamic Scheduling"],
-        href: "/services/led-advertising",
-      },
-      {
-        title: "Auto Advertising",
-        description:
-          "Efficient last-mile visibility in high-density residential and commercial areas.",
+          "High-visibility, low-cost branding that reaches every corner of residential and commercial neighborhoods. Ideal for hyper-local market penetration.",
         image: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.07 AM.jpeg",
-        items: ["Rear hood branding", "Back rest ads", "Full hoods"],
+        items: ["Rear Hoods", "Back Rest Ads", "Full Body Wraps"],
+        href: "/services/auto-rickshaw-branding",
+      },
+      {
+        title: "Metro Network Dominance",
+        description:
+          "Target 3.6 Lakh+ professional commuters daily across Bangalore's Purple and Green lines with high-dwell internal panels and station branding.",
+        image: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.11 AM.jpeg",
+        items: ["Interior Panels", "Train Wraps", "Mandatory Kannada Text"],
+        href: "/services/metro-advertising",
+      },
+      {
+        title: "Indigo In-flight Media",
+        description:
+          "Captive audience advertising via Asia's largest low-cost carrier. Reach premium flyers through seat-back trays, boarding passes, and inflight sampling.",
+        image: "https://images.unsplash.com/photo-1436491865332-7a61a109c05d?w=400&h=400&fit=crop",
+        items: ["Tray Tables", "Boarding Passes", "Hello 6E Magazine"],
+        href: "/services/indigo-inflight-media",
+      },
+      {
+        title: "Cab & Fleet Branding",
+        description:
+          "Full wraps and seatback branding on high-mileage Ola, Uber, and corporate fleets covering 100+ km daily for maximum frequency.",
+        image: "/assets/images/services/transit/cab/WhatsApp Image 2026-03-07 at 1.18.02 PM.jpeg",
+        items: ["Ola/Uber Wraps", "Internal Screens", "Premium Tech Corridors"],
+        href: "/services/cab-fleet-branding",
+      },
+      {
+        title: "LED Mobile Billboards",
+        description:
+          "Dynamic digital vans positioned on premium transit routes. Perfect for evening activations and high-impact event launches.",
+        image: "/assets/images/services/transit/led-van/WhatsApp Image 2026-02-28 at 10.27.04 AM.jpeg",
+        items: ["HD Video Ads", "GPS Tracking", "Event Routes"],
+        href: "/services/led-advertising",
       },
     ],
     gallery: {
@@ -174,11 +185,57 @@ export const services: ServiceData[] = [
       ],
     },
     cta: {
-      title: "Scale Your Mobility Campaign",
+      title: "Scale Your Mobility Campaigns",
       description:
-        "Combine the mass reach of OOH with the attribution of Digital via our Transit-Digital model. Let's create your fleet plan today.",
+        "Connect with millions on the move. From the last mile into the clouds, Mithrah.Me executes your transit strategy with data-driven precision.",
       buttonText: "Get Transit Media Rates",
       icon: "ph-car-profile",
+    },
+    showcase: {
+      title: "Detailed Media Outlook",
+      description: "A deep dive into how our mobility formats capture attention across urban corridors.",
+      items: [
+        {
+          title: "Auto Rickshaw Branding",
+          subtitle: "Hyper-Local Penetration",
+          description: "One of the most traditional yet effective ways to promote a brand in Bangalore. Autos navigate through narrow residential lanes where bigger billboards cannot reach.",
+          image: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.07 AM.jpeg",
+          uses: ["Rear Panel Branding", "Backrest Advertising", "Full Hood Wraps"],
+          benefits: ["Reaches all age groups", "Low cost, high frequency", "Targets scattered audiences"],
+        },
+        {
+          title: "Metro Advertising",
+          subtitle: "Professional Reach",
+          description: "Command the undivided attention of 3.6 Lakh+ daily commuters. Namma Metro offers a premium environment for brands seeking professional and HNI engagement.",
+          image: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.11 AM.jpeg",
+          uses: ["Interior Panel Displays", "Train Dangler Ads", "Side Wall Panels"],
+          benefits: ["Captive professional audience", "High dwell times (15-30 mins)", "Elite brand association"],
+        },
+        {
+          title: "In-flight Media (Indigo)",
+          subtitle: "Sky-High Engagement",
+          description: "Reach premium flyers across India's largest domestic network. Indigo's captive cabin environment ensures your message is seen by high-net-worth travellers.",
+          image: "https://images.unsplash.com/photo-1436491865332-7a61a109c05d?w=400&h=400&fit=crop",
+          uses: ["Tray Table Branding", "Boarding Pass Ads", "E-Ticket Banners", "Water Cup Branding"],
+          benefits: ["100% Captive attention", "HNI Demographic reach", "Unmatched brand recall"],
+        },
+        {
+          title: "Cab & Fleet Branding",
+          subtitle: "Continuous Visibility",
+          description: "Turning premium Ola and Uber fleets into moving billboards. These vehicles cover 100+ km daily, predominantly in high-income tech corridors and shopping hubs.",
+          image: "/assets/images/services/transit/cab/WhatsApp Image 2026-03-07 at 1.18.02 PM.jpeg",
+          uses: ["Full Exterior Car Wraps", "In-cab Tablet Screens", "Branded Receipt Integration"],
+          benefits: ["City-wide 24/7 mileage", "Primary focus in Tech Parks", "Massive reach in HNI zones"],
+        },
+        {
+          title: "LED Mobile Billboards",
+          subtitle: "Dynamic Impact",
+          description: "Mobile digital billboards that can be positioned exactly where your audience is. Perfect for product launches, events, and evening city tours.",
+          image: "/assets/images/services/transit/led-van/WhatsApp Image 2026-02-28 at 10.27.04 AM.jpeg",
+          uses: ["Video Content Broadcast", "GPS-Targeted Route Planning", "Event Site Presence"],
+          benefits: ["Dynamic & Interactive", "Unmissable brightness", "Scalable for grand launches"],
+        },
+      ],
     },
   },
   {
@@ -298,7 +355,7 @@ export const services: ServiceData[] = [
         items: ["Entry branding", "Cafeteria ads", "Product sampling"],
       },
       {
-        title: "Mall & Hoarding Media",
+        title: "Hoardings",
         description:
           "High-impact oversized billboards and digital mall networks in prime retail hotspots.",
         image: "/assets/images/services/premium-ooh/led-screen/mallofasia.jpeg",
@@ -310,6 +367,7 @@ export const services: ServiceData[] = [
           "Automated large-scale fade-resistant printing directly onto rural and urban structures for maximum local penetration.",
         image: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-03-07 at 11.20.34 AM (2).jpeg",
         items: ["Weather-proof ink", "High-res urban walls", "Rural reach"],
+        href: "/services/digital-wall-printing",
       },
       {
         title: "LED Ad Display",
@@ -323,8 +381,9 @@ export const services: ServiceData[] = [
         title: "Drone Advertising",
         description:
           "High-spectacle drone light shows and aerial banner towing for massive impact over grand city events and festivals.",
-        image: "/assets/images/services/premium-ooh/led-screen/outer ring road.jpeg", // Placeholder legacy feature
+        image: "/assets/images/services/premium-ooh/led-screen/outer ring road.jpeg",
         items: ["Drone Light Shows", "Aerial Banners", "Event Spectaculars"],
+        href: "/services/drone-advertising",
       },
     ],
     gallery: {
@@ -481,36 +540,198 @@ export const services: ServiceData[] = [
         { value: "24/7", label: "Campaign Ready" },
       ],
     },
+    showcase: {
+      title: "What is LED Van Marketing?",
+      description: "A Moving Billboard That Comes to You. LED Van Marketing is a powerful mobile Out-of-Home (OOH) format where large, high-brightness LED screens are mounted on vans and driven through targeted routes — carrying your brand directly to the audience.",
+      items: [
+        {
+          title: "Tata Ace — LED Van",
+          subtitle: "6×8 ft LED Display",
+          description: "Perfect for narrow lanes, local markets, and deeply residential areas. Delivers hyper-local neighbourhood-level reach.",
+          image: "/images/LED Van/WhatsApp Image 2026-02-28 at 10.27.04 AM.jpeg",
+          uses: [
+            "Narrow residential lanes",
+            "Local street markets",
+            "High-density urban cores",
+          ],
+          benefits: [
+            "25–50 km Daily Coverage",
+            "Morning to Evening Operating Hours",
+            "Unmatched Hyper-Local targeting",
+          ],
+        },
+        {
+          title: "Canter Van — LED Van",
+          subtitle: "12×8 ft Wide-Format LED",
+          description: "Ultra-bright wide-format LED panel built to command attention on main roads, events, commercial zones, and highways.",
+          image: "/images/LED Van/WhatsApp Image 2026-02-28 at 10.27.04 AM (1).jpeg",
+          uses: [
+            "Main arterial roads",
+            "Highway junctions",
+            "Mass event zones",
+          ],
+          benefits: [
+            "25–50 km Daily Coverage",
+            "Massive City-wide audience targeting",
+            "Giant Screen Impact",
+          ],
+        },
+      ],
+    },
     features: [
       {
-        title: "MG Road & Brigade Road",
-        description:
-          "Brigade Road Junction, Trinity Circle, Anil Kumble Circle. L-Shape & Face-to-Traffic screens.",
-        image: "/assets/images/services/premium-ooh/led-screen/mg road.jpeg",
-        items: ["High Traffic", "Retail Catchment", "Premium Branding"],
+        title: "High-Brightness Outdoor LED",
+        description: "Commercial-grade panels with high-nit ratings remain clearly visible in direct sunlight, ensuring crisp content from morning to evening.",
+        image: "/images/LED Van/WhatsApp Image 2026-02-28 at 10.27.04 AM (2).jpeg",
+        items: ["Outdoor LED", "Glare-free", "Sunlight Visible"],
       },
       {
-        title: "Koramangala & Indiranagar",
-        description:
-          "Sony World Junction, Bosch Junction, 100ft Road KFC Junction. Targeting Youth & F&B hubs.",
-        image: "/assets/images/services/premium-ooh/led-screen/koramangala.jpeg",
-        items: ["Youth Density", "Dining Hubs", "Dynamic Content"],
+        title: "Route-Targeted Campaigns",
+        description: "Routes are precisely mapped through specific pin codes, markets, schools, or hospitals for maximum relevant exposure.",
+        image: "/images/LED Van/WhatsApp Image 2026-02-28 at 10.27.04 AM (3).jpeg",
+        items: ["GPS Tracked", "Pin code Mapping", "Catchment Focus"],
       },
       {
-        title: "Outer Ring Road (ORR)",
-        description:
-          "Bellandur Flyover, Manyata Tech Park, Silk Board Junction. Massive displays for tech work force.",
-        image: "/assets/images/services/premium-ooh/led-screen/outer ring road.jpeg",
-        items: ["Tech Corridor", "B2B Reach", "High Dwell Time"],
+        title: "Audio + Visual Capability",
+        description: "LED vans carry PA systems for jingles, voice announcements, and call-to-action audio — creating a complete sensory brand experience.",
+        image: "/images/LED Van/WhatsApp Image 2026-02-28 at 10.27.04 AM (4).jpeg",
+        items: ["Brand Jingles", "Voice Announcements", "Multi-sensory"],
       },
       {
-        title: "Hebbal & Airport Road",
-        description:
-          "Mekhri Circle, Near Mall of Asia Sahakaranagara. Highway facing screens for HNIs & Travelers.",
-        image: "/assets/images/services/premium-ooh/led-screen/hebbal.jpeg",
-        items: ["Airport Transit", "Highway Visibility", "Massive Impact"],
+        title: "Dynamic Content in Real Time",
+        description: "Videos, animations, offers, QR codes, and countdowns — all updatable remotely without stopping the van or reprinting.",
+        image: "/images/LED Van/WhatsApp Image 2026-02-28 at 10.27.04 AM (5).jpeg",
+        items: ["Live Updates", "Remote Upload", "Zero Printing Costs"],
       },
     ],
+    useCases: {
+      title: "Ideal Use Cases & Industries",
+      subtitle: "Because your audience doesn't always come to you — your brand goes to them.",
+      items: [
+        {
+          title: "Retail & Shop Launches",
+          description: "Drive footfall to new store openings, grand sales, and seasonal offers by routing vans through nearby residential and commercial zones.",
+          icon: "ph-storefront",
+        },
+        {
+          title: "Healthcare & Hospitals",
+          description: "Promote health camps, new departments, specialist doctors, and free check-up drives in targeted residential catchment areas.",
+          icon: "ph-first-aid",
+        },
+        {
+          title: "Education & Institutes",
+          description: "Reach students and parents in specific zones during admission season — an LED van in the right street does more than any pamphlet.",
+          icon: "ph-graduation-cap",
+        },
+        {
+          title: "Real Estate Projects",
+          description: "Showcase properties with LED visuals and QR codes near project sites and in target affluent residential localities.",
+          icon: "ph-buildings",
+        },
+        {
+          title: "Events & Festivals",
+          description: "Build anticipation before concerts, exhibitions, temple festivals, or sporting events by routing the van through the target audience area.",
+          icon: "ph-ticket",
+        },
+        {
+          title: "Food, Retail & Franchise",
+          description: "Announce new menu launches, delivery offers, and openings to hungry audiences in busy streets and food-loving neighbourhoods.",
+          icon: "ph-fork-knife",
+        },
+      ],
+    },
+    process: {
+      title: "How It Works — Campaign Process",
+      subtitle: "End-to-End Execution for Flawless On-Road Campaigns",
+      steps: [
+        {
+          number: "01",
+          title: "Brief & Objectives",
+          description: "Share your brand goals, target zones, preferred timings, and creative vision with the Mithrah.Me planning team.",
+        },
+        {
+          number: "02",
+          title: "Route Planning",
+          description: "We map precision routes through your chosen pin codes, markets, and high-footfall areas for maximum daily coverage.",
+        },
+        {
+          number: "03",
+          title: "Content Creation",
+          description: "Our designers build LED-ready visuals, animations, and audio assets that bring your brand to life on the road.",
+        },
+        {
+          number: "04",
+          title: "Campaign Execution",
+          description: "Vans roll out morning to evening covering 25–50 km daily through agreed routes with trained operators onboard.",
+        },
+        {
+          number: "05",
+          title: "GPS Monitoring & Report",
+          description: "Live GPS tracking ensures route adherence; you receive a post-campaign report with coverage maps and reach data.",
+        },
+      ],
+    },
+    comparison: {
+      title: "LED Van vs Other Formats",
+      subtitle: "Why an LED Van delivers higher impact and ROI.",
+      columns: ["Feature", "LED Van", "Hoarding", "Social Media", "Print / Flyer"],
+      features: [
+        {
+          name: "Mobility",
+          options: [
+            { label: "Moves city-wide daily", value: "High", highlight: true },
+            { label: "Fixed forever", value: "Medium" },
+            { label: "Digital reach only", value: "Low" },
+            { label: "Delivery-limited", value: "Low" },
+          ],
+        },
+        {
+          name: "Screen Size",
+          options: [
+            { label: "Up to 12×8 ft LED", value: "High", highlight: true },
+            { label: "Billboard (fixed)", value: "Medium" },
+            { label: "Device screen", value: "Low" },
+            { label: "A3/A4 max", value: "Low" },
+          ],
+        },
+        {
+          name: "Daily Coverage",
+          options: [
+            { label: "25–50 km per day", value: "High", highlight: true },
+            { label: "Single location", value: "Low" },
+            { label: "Algorithm-based", value: "Medium" },
+            { label: "Distribution only", value: "Low" },
+          ],
+        },
+        {
+          name: "Audience Control",
+          options: [
+            { label: "Route-targeted", value: "High", highlight: true },
+            { label: "Catchment-based", value: "Medium" },
+            { label: "Interest-based", value: "Medium" },
+            { label: "Uncontrolled", value: "Low" },
+          ],
+        },
+        {
+          name: "Brand Recall",
+          options: [
+            { label: "Very High (moving)", value: "High", highlight: true },
+            { label: "Moderate", value: "Medium" },
+            { label: "Low (scroll-past)", value: "Low" },
+            { label: "Low", value: "Low" },
+          ],
+        },
+        {
+          name: "Audio Capable",
+          options: [
+            { label: "Sound + LED", value: "High", highlight: true },
+            { label: "None", value: "Low" },
+            { label: "Video sound", value: "Medium" },
+            { label: "None", value: "Low" },
+          ],
+        },
+      ],
+    },
     gallery: {
       title: "Recent LED Executions",
       subtitle:
@@ -664,6 +885,177 @@ export const services: ServiceData[] = [
         "Secure premium ad slots across PVR, INOX, and single screens for unmatched brand impact.",
       buttonText: "Get Cinema Rates",
       icon: "ph-film-strip",
+    },
+  },
+  {
+    slug: "digital-wall-printing",
+    title: "Digital Wall Printing",
+    tagline: "High-Resolution Outdoor Brand Presence",
+    pillar: "premium-ooh",
+    pillarColor: "#db9318",
+    pillarColorBg: "bg-[#db9318]",
+    hero: {
+      badge: "Neighborhood-Level Brand Dominance",
+      heading: "Digital Wall",
+      headingHighlight: "Printing",
+      description: "Turn neighborhood walls into powerful brand canvases with high-resolution, weather-resistant prints. Bold, beautiful, and long-lasting visibility for up to 3 years.",
+      bgImage: "https://images.unsplash.com/photo-1542204165-65bf26472b9b?q=80&w=2574&auto=format&fit=crop",
+      gradientOverlay: "bg-gradient-to-r from-brand-navy via-brand-navy/90 to-[#db9318]/30",
+      stats: [
+        { value: "6x4 ft", label: "Ideal Size" },
+        { value: "720+", label: "DPI Quality" },
+        { value: "3 Yrs", label: "Durability" },
+      ],
+    },
+    features: [
+      {
+        title: "Hyper-Local Reach",
+        description: "Wall prints placed in targeted localities speak directly to residents—building trust and brand recall where it matters most.",
+        image: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-03-07 at 11.20.34 AM (2).jpeg",
+        items: ["Residential Colonies", "Busy Markets", "Catchment Zones"],
+      },
+      {
+        title: "Unmissable Visibility",
+        description: "A bold 6x4 ft print commands attention every time someone walks, drives, or cycles past—day and night, rain or shine.",
+        image: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-02-26 at 6.04.14 PM.jpeg",
+        items: ["High Contrast", "Visible from Distance", "24/7 Exposure"],
+      },
+      {
+        title: "Zero Recurring Cost",
+        description: "Unlike digital ads with monthly spends, one print lasts up to 3 years. No renewals, no algorithm—just pure, uninterrupted visibility.",
+        image: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-02-26 at 6.04.16 PM (1).jpeg",
+        items: ["One-time Investment", "Maximized ROI", "Lowest CPM"],
+      },
+      {
+        title: "Weather-Resistant Quality",
+        description: "UV-cured and solvent-based inks are tested to withstand rain, heat, and dust—maintaining vibrant color for years outdoors.",
+        image: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-02-26 at 6.04.17 PM (1).jpeg",
+        items: ["UV Shielded", "Rain Proof", "Solvent-based Inks"],
+      },
+    ],
+    gallery: {
+      title: "Digital Wall Execution Network",
+      subtitle: "Strategically positioned assets across urban arteries and affluent residential corridors.",
+      images: [
+        { src: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-03-07 at 11.20.34 AM (2).jpeg", alt: "Wall Printing Execution" },
+        { src: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-02-26 at 6.04.18 PM.jpeg", alt: "Wall Branding" },
+        { src: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-03-07 at 11.20.33 AM.jpeg", alt: "High-Res Printing" },
+        { src: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-02-26 at 6.04.20 PM (2).jpeg", alt: "Urban Wall Media" },
+        { src: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-02-26 at 6.04.12 PM.jpeg", alt: "Neighborhood Branding" },
+        { src: "/assets/images/services/premium-ooh/digital-wall/WhatsApp Image 2026-02-26 at 6.03.44 PM (2).jpeg", alt: "Commercial Wall Ad" },
+      ]
+    },
+    cta: {
+      title: "Ready to Make Every Wall Your Billboard?",
+      description: "Let Mithrah.Me turn neighborhood walls into powerful brand canvases. Secure your target localities today.",
+      buttonText: "Get Wall Printing Rates",
+      icon: "ph-paint-brush",
+    },
+    process: {
+      title: "The Mithrah.Me Process",
+      subtitle: "From Brief to Wall — Professional execution at every stage.",
+      steps: [
+        {
+          number: "01",
+          title: "Brief & Objectives",
+          description: "Share your brand goals, target localities, and creative assets with our team.",
+        },
+        {
+          number: "02",
+          title: "Wall Identification",
+          description: "We scout and shortlist high-footfall, high-visibility surfaces in your target zones.",
+        },
+        {
+          number: "03",
+          title: "Design & Approval",
+          description: "Our designers create a stunning 6x4 ft layout for your review and approval.",
+        },
+        {
+          number: "04",
+          title: "Printing & Lamination",
+          description: "High-res outdoor printing with UV/solvent inks and protective lamination.",
+        },
+        {
+          number: "05",
+          title: "Installation & Report",
+          description: "Professional installation with photographic proof and location tags.",
+        },
+      ],
+    },
+    comparison: {
+      title: "Why Digital Wall Printing?",
+      subtitle: "How it stacks up against traditional and digital formats.",
+      columns: ["Feature", "Wall Print", "Hoarding", "Digital Ads"],
+      features: [
+        {
+          name: "Visibility Hours",
+          options: [
+            { label: "24/7 Always Visible", value: "High", highlight: true },
+            { label: "24/7 Static", value: "Medium" },
+            { label: "During Ad Spend", value: "Low" },
+          ],
+        },
+        {
+          name: "Durability",
+          options: [
+            { label: "Up to 3 Years", value: "High", highlight: true },
+            { label: "1-2 Years", value: "Medium" },
+            { label: "Short-term", value: "Low" },
+          ],
+        },
+        {
+          name: "Brand Recall",
+          options: [
+            { label: "High (Daily)", value: "High", highlight: true },
+            { label: "Moderate", value: "Medium" },
+            { label: "Skip-prone", value: "Low" },
+          ],
+        },
+        {
+          name: "Cost Model",
+          options: [
+            { label: "One-time Print", value: "High", highlight: true },
+            { label: "High Monthly", value: "Low" },
+            { label: "Ongoing CPM", value: "Low" },
+          ],
+        },
+      ],
+    },
+    useCases: {
+      title: "Ideal Use Cases",
+      subtitle: "Strategic wall placements for high-impact ROI across diverse industries.",
+      items: [
+        {
+          title: "Retail & Shop Fronts",
+          description: "Print on shop shutters and adjacent walls to attract walk-in customers.",
+          icon: "ph-storefront",
+        },
+        {
+          title: "Healthcare & Clinics",
+          description: "Promote doctors and health camps near hospitals and residential lanes.",
+          icon: "ph-first-aid",
+        },
+        {
+          title: "Education & Coaching",
+          description: "Reach parents and students in key school zones during admission season.",
+          icon: "ph-graduation-cap",
+        },
+        {
+          title: "Real Estate & Housing",
+          description: "Display project highlights on boundary walls near project sites.",
+          icon: "ph-buildings",
+        },
+        {
+          title: "Restaurants & Food",
+          description: "Put your menu highlights in front of hungry eyes near busy streets.",
+          icon: "ph-fork-knife",
+        },
+        {
+          title: "Events & Launches",
+          description: "Create pre-event buzz near venues and high-footfall intersections.",
+          icon: "ph-ticket",
+        },
+      ],
     },
   },
   {
@@ -900,6 +1292,654 @@ export const services: ServiceData[] = [
         "We assist with Official API onboarding, Whatsapp Business verification, and complete management.",
       buttonText: "Start Broadcasting Now",
       icon: "ph-megaphone",
+    },
+  },
+  {
+    slug: "drone-advertising",
+    title: "Drone Advertising",
+    tagline: "Unmatched Sky-High Visibility",
+    pillar: "premium-ooh",
+    pillarColor: "#db9318",
+    pillarColorBg: "bg-[#db9318]",
+    hero: {
+      badge: "Sky-High Brand Visibility",
+      heading: "Drone",
+      headingHighlight: "Advertising",
+      description:
+        "Capture the sky with massive ~150 sq ft aerial LED screens. Breathtaking, unmissable, and eco-friendly brand experiences for high-impact events and massive brand launches.",
+      bgImage:
+        "https://images.unsplash.com/photo-1508614589041-895b88991e3e?q=80&w=2670&auto=format&fit=crop",
+      gradientOverlay:
+        "bg-gradient-to-r from-brand-navy via-brand-navy/90 to-[#db9318]/30",
+      stats: [
+        { value: "150 Sq Ft", label: "Screen Size" },
+        { value: "500m+", label: "Visibility Radius" },
+        { value: "Zero", label: "Emissions" },
+      ],
+    },
+    showcase: {
+      title: "What is Drone Marketing?",
+      description:
+        "A New Era of Outdoor Advertising. Drone Marketing uses advanced unmanned aerial vehicles equipped with LED display screens, projection systems, or banner payloads to broadcast brand messages at public events, open spaces, and high-footfall locations.",
+      items: [
+        {
+          title: "~150 Sq Ft Screen",
+          subtitle: "Massive Airborne Display",
+          description:
+            "Visible from hundreds of metres away, ensuring your message dominates the local skyline and captures every eye in the crowd.",
+          image: "https://images.unsplash.com/photo-1524143986875-3b098d78b363?q=80&w=2670&auto=format&fit=crop",
+          uses: ["Sky-High Branding", "Logo Display", "Product Messaging"],
+          benefits: ["Unmissable Scale", "Multi-Angle Visibility", "Day & Night Glow"],
+        },
+        {
+          title: "15-20 Min Per Show",
+          subtitle: "Captivated Audience",
+          description:
+            "Each show runs for 15 to 20 minutes — long enough to captivate the audience and create a lasting impact with storytelling choreography.",
+          image: "https://images.unsplash.com/photo-1506947411487-a56738267384?q=80&w=2670&auto=format&fit=crop",
+          uses: ["Storytelling", "Brand Reveal", "Event Spectaculars"],
+          benefits: ["Captive Emotion", "High Engagement", "Memorability"],
+        },
+        {
+          title: "3+ Shows Daily",
+          subtitle: "Repeated Exposure",
+          description:
+            "Minimum three shows per day ensure your audience sees your brand multiple times, boosting recall rates and reinforcing the message effectively.",
+          image: "https://images.unsplash.com/photo-1521747116042-5a810fda9664?q=80&w=2670&auto=format&fit=crop",
+          uses: ["Frequency Play", "Retail Footfall", "Sustained Recall"],
+          benefits: ["Message Reinforcement", "Maximized Reach", "Ongoing Excitement"],
+        },
+      ],
+    },
+    features: [
+      {
+        title: "Screen Size: ~150 Sq Ft",
+        description:
+          "An airborne screen measuring approximately 150 sq ft ensures your brand message is seen from every angle across the venue.",
+        image: "https://images.unsplash.com/photo-1524143986875-3b098d78b363?w=400&h=400&fit=crop",
+        items: ["High Luminosity", "Multi-Angle", "Wide Aspect"],
+      },
+      {
+        title: "500m+ Visibility Radius",
+        description:
+          "A massive audience reach within a half-kilometre radius, making it the most visible OOH format in the sky.",
+        image: "https://images.unsplash.com/photo-1506947411487-a56738267384?w=400&h=400&fit=crop",
+        items: ["Sky Dominance", "Crowd Targeting", "Zero Clutter"],
+      },
+      {
+        title: "Ideal Timing: Dusk & Night",
+        description:
+          "Drone screens are most impactful after dusk when the screen luminosity stands out against the dark sky, creating a mesmerising visual spectacle.",
+        image: "https://images.unsplash.com/photo-1521747116042-5a810fda9664?w=400&h=400&fit=crop",
+        items: ["High Intensity", "Night Specatcle", "Mesmerising luminosity"],
+      },
+      {
+        title: "Eco-Friendly Technology",
+        description:
+          "Fully electric drones produce zero emissions during operation, aligning your brand with sustainable and forward-thinking values.",
+        image: "https://images.unsplash.com/photo-1473960104312-bf9e182f3ef2?w=400&h=400&fit=crop",
+        items: ["Zero Emissions", "Silent Operation", "Sustainable OOH"],
+      },
+    ],
+    useCases: {
+      title: "Ideal Use Cases",
+      subtitle: "Innovative sky-high branding for high-impact environments.",
+      items: [
+        {
+          title: "Sports & IPL Events",
+          description:
+            "Brand your logo above the crowd during cricket, football, and sports events. Captivate tens of thousands at once.",
+          icon: "ph-trophy",
+        },
+        {
+          title: "Festivals & Fairs",
+          description:
+            "Diwali, New Year, trade fairs — drone shows add festive grandeur while putting your brand centre-stage in the sky.",
+          icon: "ph-tent",
+        },
+        {
+          title: "Mall & Retail Launches",
+          description:
+            "Draw massive footfall to grand openings and sale events with a sky spectacle visible from surrounding streets and towers.",
+          icon: "ph-shopping-bag",
+        },
+        {
+          title: "Residential Activations",
+          description:
+            "Reach entire residential zones and apartment clusters with evening drone shows — high recall in a trusted neighbourhood setting.",
+          icon: "ph-house",
+        },
+        {
+          title: "Education & Institution",
+          description:
+            "Colleges, university fests and campus events make ideal drone advertising grounds with a young, engaged audience.",
+          icon: "ph-graduation-cap",
+        },
+        {
+          title: "Airport & Expo Zones",
+          description:
+            "Capture business travellers and premium audiences near airports, convention centres and international exhibitions.",
+          icon: "ph-airplane-tilt",
+        },
+      ],
+    },
+    process: {
+      title: "How It Works — The Process",
+      subtitle: "Professional execution and clearance at every flight stage.",
+      steps: [
+        {
+          number: "01",
+          title: "Brief & Campaign Planning",
+          description:
+            "Share your brand goals, target audience, event details and creative assets. Our team maps the show concept.",
+        },
+        {
+          number: "02",
+          title: "Content Design & Approval",
+          description:
+            "We design display content — logos, animations, product visuals — for your review and approval before the show.",
+        },
+        {
+          number: "03",
+          title: "Location Recce & DGCA Clearance",
+          description:
+            "Site survey and all required drone permissions are obtained. Safety is our top priority for every flight.",
+        },
+        {
+          number: "04",
+          title: "Show Execution",
+          description:
+            "Our trained pilots fly the drone show at your event — minimum 3 shows per day, 15–20 minutes each.",
+        },
+        {
+          number: "05",
+          title: "Post-Show Report",
+          description:
+            "Receive a detailed report with show footage, audience reach estimates and social media performance data.",
+        },
+      ],
+    },
+    comparison: {
+      title: "Drone vs Traditional Advertising",
+      subtitle: "Why Drone Advertising is the ultimate 'Live Wow' format.",
+      columns: ["Feature", "Drone", "Hoarding / OOH", "TV / Digital"],
+      features: [
+        {
+          name: "Audience Reach",
+          options: [
+            { label: "500m+ radius", value: "High", highlight: true },
+            { label: "Fixed location only", value: "Medium" },
+            { label: "Broad but passive", value: "Low" },
+          ],
+        },
+        {
+          name: "Screen Size",
+          options: [
+            { label: "~150 Sq Ft aerial", value: "High", highlight: true },
+            { label: "Billboard size only", value: "Medium" },
+            { label: "Device screen only", value: "Low" },
+          ],
+        },
+        {
+          name: "Engagement Level",
+          options: [
+            { label: "Very High (live wow)", value: "High", highlight: true },
+            { label: "Moderate", value: "Medium" },
+            { label: "Low (skip-prone)", value: "Low" },
+          ],
+        },
+        {
+          name: "Eco Impact",
+          options: [
+            { label: "Zero emissions", value: "High", highlight: true },
+            { label: "Vinyl / material waste", value: "Low" },
+            { label: "Energy intensive", value: "Medium" },
+          ],
+        },
+        {
+          name: "Brand Recall",
+          options: [
+            { label: "3× higher (aerial)", value: "High", highlight: true },
+            { label: "Average", value: "Medium" },
+            { label: "Varies widely", value: "Low" },
+          ],
+        },
+        {
+          name: "Uniqueness",
+          options: [
+            { label: "Exclusive sky space", value: "High", highlight: true },
+            { label: "Cluttered landscape", value: "Low" },
+            { label: "Ad fatigue", value: "Low" },
+          ],
+        },
+        {
+          name: "Repeat Exposure",
+          options: [
+            { label: "3+ shows / day", value: "High", highlight: true },
+            { label: "24/7 static", value: "Medium" },
+            { label: "Frequency buying", value: "Medium" },
+          ],
+        },
+      ],
+    },
+    gallery: {
+      title: "Drone Shows Gallery",
+      subtitle: "Spectacular aerial brand experiences captured live.",
+      images: [
+        {
+          src: "https://images.unsplash.com/photo-1524143986875-3b098d78b363?q=80&w=2670&auto=format&fit=crop",
+          alt: "Drone Show 1",
+        },
+        {
+          src: "https://images.unsplash.com/photo-1506947411487-a56738267384?q=80&w=2670&auto=format&fit=crop",
+          alt: "Drone Show 2",
+        },
+        {
+          src: "https://images.unsplash.com/photo-1521747116042-5a810fda9664?q=80&w=2670&auto=format&fit=crop",
+          alt: "Drone Show 3",
+        },
+      ],
+    },
+    cta: {
+      title: "Ready for a Sky-High Launch?",
+      description:
+        "Partner with Mithrah.Me to own the sky. Contact us today for event-specific drone marketing plans.",
+      buttonText: "Inquire Drone Pricing",
+      icon: "ph-airplane-tilt",
+    },
+  },
+  {
+    slug: "auto-rickshaw-branding",
+    title: "Auto Rickshaw Branding",
+    tagline: "Hyper-Local Urban Penetration",
+    pillar: "transit",
+    pillarColor: "#ff6b63",
+    pillarColorBg: "bg-brand-coral",
+    hero: {
+      badge: "Traditional Yet Powerful",
+      heading: "Auto Rickshaw",
+      headingHighlight: "Branding",
+      description:
+        "Auto rickshaw branding is a high-impact, traditional way to promote your brand. Navigating through the narrowest residential and commercial lanes, it targets scattered audiences across every geographical corner of the city.",
+      bgImage: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.07 AM.jpeg",
+      gradientOverlay: "bg-gradient-to-r from-brand-navy via-brand-navy/90 to-brand-navy/40",
+      stats: [
+        { value: "Low Cost", label: "Per Impression" },
+        { value: "Moving", label: "Visibility" },
+        { value: "All Ages", label: "Reach" },
+      ],
+    },
+    features: [
+      {
+        title: "Moving Visibility",
+        description: "Your brand travels where the people are, ensuring constant exposure in high-footfall areas.",
+        image: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.08 AM.jpeg",
+        items: ["Rear Panel", "Full Hood", "Inside Backrest"],
+      },
+      {
+        title: "Hyper-Local Reach",
+        description: "Autos penetrate deep into residential neighborhoods and local markets that larger billboards miss.",
+        image: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.09 AM.jpeg",
+        items: ["Local Markets", "Tech Corridors", "Residential Lanes"],
+      },
+      {
+        title: "Cost-Effective",
+        description: "One of the most budget-friendly transit media options with high frequency of views.",
+        image: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.10 AM.jpeg",
+        items: ["Budget Friendly", "High Frequency", "Massive Reach"],
+      },
+    ],
+    showcase: {
+      title: "Our Mission & Vision",
+      description: "Taking your brand to the last mile.",
+      items: [
+        {
+          title: "Low Cost but Effective",
+          subtitle: "Budget Visibility",
+          description: "Ideal for brands seeking high ROI through massive frequency and neighborhood-level penetration.",
+          image: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.07 AM.jpeg",
+          uses: ["Retail Launches", "Local Services", "Mass Awareness"],
+          benefits: ["Lowest CPL", "Unmissable Presence", "Constant Movement"],
+        },
+        {
+          title: "Responsive Mode",
+          subtitle: "Targeted Audience",
+          description: "A mode of advertising that reaches all age groups and demographics effectively.",
+          image: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.10 AM.jpeg",
+          uses: ["Educational Institutes", "Real Estate", "Healthcare"],
+          benefits: ["High Recall", "Daily Visibility", "Active Commute Catch"],
+        },
+      ],
+    },
+    gallery: {
+      title: "Auto Branding Gallery",
+      subtitle: "See our fleet in action across the city.",
+      images: [
+        { src: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.07 AM.jpeg", alt: "Auto Branding 1" },
+        { src: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.08 AM.jpeg", alt: "Auto Branding 2" },
+        { src: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.09 AM.jpeg", alt: "Auto Branding 3" },
+        { src: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.10 AM.jpeg", alt: "Auto Branding 4" },
+      ],
+    },
+    cta: {
+      title: "Scale Your Local Presence",
+      description: "Reach every street in the city with our expansive auto rickshaw network.",
+      buttonText: "Request Auto Branding Rates",
+      icon: "ph-car",
+    },
+  },
+  {
+    slug: "metro-advertising",
+    title: "Metro Network Advertising",
+    tagline: "High-Dwell Professional Audience",
+    pillar: "transit",
+    pillarColor: "#ff6b63",
+    pillarColorBg: "bg-brand-coral",
+    hero: {
+      badge: "Professional Reach",
+      heading: "Bangalore Metro",
+      headingHighlight: "Network",
+      description:
+        "Command the undivided attention of over 3.6 Lakh+ professional commuters daily. Namma Metro offers a premium, captive environment for brands seeking elite engagement.",
+      bgImage: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.11 AM.jpeg",
+      gradientOverlay: "bg-gradient-to-r from-brand-navy via-brand-navy/90 to-brand-navy/40",
+      stats: [
+        { value: "3.6L+", label: "Daily Ridership" },
+        { value: "15-30m", label: "Dwell Time" },
+        { value: "64+", label: "Stations" },
+      ],
+    },
+    features: [
+      {
+        title: "Interior Panels",
+        description: "High-dwell internal panels positioned at eye-level for commuters.",
+        image: "/assets/images/services/transit/auto/WhatsApp Image 10.37.11 AM.jpeg",
+        items: ["8.5 in x 35 in Cards", "UV Printed", "Durable Material"],
+      },
+      {
+        title: "Train Danglers",
+        description: "Eye-catching double-sided hanging ads throughout the train corridor.",
+        image: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.11 AM.jpeg",
+        items: ["Double Sided", "Corridor Placement", "High Frequency"],
+      },
+    ],
+    gallery: {
+      title: "Metro Branding Gallery",
+      subtitle: "Dominating the underground and elevated corridors of Bengaluru.",
+      images: [
+        { src: "/assets/images/services/transit/auto/WhatsApp Image 10.37.11 AM.jpeg", alt: "Metro Branding 1" },
+        { src: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.11 AM.jpeg", alt: "Metro Branding 2" },
+      ],
+    },
+    process: {
+      title: "Artwork Requirements",
+      subtitle: "Adhering to BMRCL Guidelines",
+      steps: [
+        {
+          number: "01",
+          title: "BMRCL Approval",
+          description: "All artwork must be approved by the BMRCL Authority before printing and installation.",
+        },
+        {
+          number: "02",
+          title: "Language Policy",
+          description: "Mandatory requirement of 20-30% content in Kannada language for all display cards.",
+        },
+        {
+          number: "03",
+          title: "Production",
+          description: "High-quality UV printing on approved display cards (8.5 in x 35 in) for maximum durability.",
+        },
+      ],
+    },
+    comparison: {
+      title: "Bangalore Metro Facts",
+      subtitle: "The lifeline of Bengaluru.",
+      columns: ["Quick Facts", "Purple Line", "Green Line"],
+      features: [
+        {
+          name: "Line Length",
+          options: [
+            { label: "Whitefield-KR Puram", value: "35 Stations" },
+            { label: "North-South Corridor", value: "29 Stations" },
+          ],
+        },
+        {
+          name: "Ridership",
+          options: [
+            { label: "Approx Daily", value: "1.91 Lakhs", highlight: true },
+            { label: "Approx Daily", value: "1.71 Lakhs" },
+          ],
+        },
+        {
+          name: "Estimated Cost",
+          options: [
+            { label: "Line Dev", value: "₹4,500 Cr", highlight: true },
+            { label: "Line Dev", value: "₹2,100 Cr" },
+          ],
+        },
+        {
+          name: "Status",
+          options: [
+            { label: "Launch Date", value: "25 March" },
+            { label: "Launch Date", value: "1 March" },
+          ],
+        },
+      ],
+    },
+    showcase: {
+      title: "Inside Metro Branding",
+      description: "Captive audience marketing at scale.",
+      items: [
+        {
+          title: "Interior Panels",
+          subtitle: "Eye-Level Visibility",
+          description: "Each train with 6 coaches provides 4 to 5 interior panels per coach, ensuring high-frequency viewing during the commute.",
+          image: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.11 AM.jpeg",
+          uses: ["Side Wall Panels", "Train Danglers", "Door Stickers"],
+          benefits: ["Long dwell times", "Targeted reach", "Premium association"],
+        },
+        {
+          title: "Train Stats",
+          subtitle: "Network Coverage",
+          description: "Total 4 Trains from KR Puram to Whitefield with a total of 28 display cards in each train.",
+          image: "/assets/images/services/transit/auto/WhatsApp Image 2026-03-14 at 10.37.11 AM.jpeg",
+          uses: ["Route Specific Ads", "Frequency Campaigns", "Mass Branding"],
+          benefits: ["High recall", "Professional audience", "Elite exposure"],
+        },
+      ],
+    },
+    cta: {
+      title: "Launch Your Metro Campaign",
+      description: "Connect with the professional heartbeat of Bangalore. Get started with Namma Metro branding today.",
+      buttonText: "Request Metro Rates",
+      icon: "ph-train",
+    },
+  },
+  {
+    slug: "indigo-inflight-media",
+    title: "Indigo Inflight Media",
+    tagline: "Sky-High Brand Engagement",
+    pillar: "transit",
+    pillarColor: "#ff6b63",
+    pillarColorBg: "bg-brand-coral",
+    hero: {
+      badge: "Elite Audience",
+      heading: "Inflight",
+      headingHighlight: "Advertising",
+      description:
+        "Partner with Asia's largest low-cost carrier. With a 57.7% market share and 1600+ daily flights, Indigo offers an unmatched captive environment for premium brand experiences.",
+      bgImage: "https://images.unsplash.com/photo-1436491865332-7a61a109c05d?w=1200&h=800&fit=crop",
+      gradientOverlay: "bg-gradient-to-r from-brand-navy via-brand-navy/90 to-brand-navy/40",
+      stats: [
+        { value: "57.7%", label: "Market Share" },
+        { value: "1600+", label: "Daily Flights" },
+        { value: "300M+", label: "Customers" },
+      ],
+    },
+    features: [
+      {
+        title: "Digital & Paper Media",
+        description: "Engage passengers before they even board with targeted e-tickets, emailers, and boarding passes.",
+        image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=400&h=400&fit=crop",
+        items: ["E-Tickets", "Boarding Passes", "Emailers"],
+      },
+      {
+        title: "In-Cabin Branding",
+        description: "Zero distraction environment where your message stays with the passenger for the entire duration of the flight.",
+        image: "https://images.unsplash.com/photo-1436491865332-7a61a109c05d?w=400&h=400&fit=crop",
+        items: ["Tray Tables", "Inside Panels", "In-flight Magazine"],
+      },
+      {
+        title: "Experiential Ad",
+        description: "Tangible brand associations through sampling and branded utility items inside the cabin.",
+        image: "https://images.unsplash.com/photo-1436491865332-7a61a109c05d?w=400&h=400&fit=crop",
+        items: ["Sampling", "Water Cups", "Hot Beverage Glass"],
+      },
+    ],
+    gallery: {
+      title: "Inflight Media Gallery",
+      subtitle: "Premium brand placements at 35,000 feet.",
+      images: [
+        { src: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&h=600&fit=crop", alt: "Indigo Boarding Pass" },
+        { src: "https://images.unsplash.com/photo-1436491865332-7a61a109c05d?w=800&h=600&fit=crop", alt: "Indigo Tray Table" },
+      ],
+    },
+    showcase: {
+      title: "Media Options Outlook",
+      description: "A 360° approach to inflight advertising.",
+      items: [
+        {
+          title: "Clickable Banners",
+          subtitle: "Digital Interaction",
+          description: "Reach flyers through interactive e-boarding passes and mobile notifications for immediate digital conversions.",
+          image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=400&h=400&fit=crop",
+          uses: ["Mobile App Ads", "E-Ticket Banners", "Email Campaigns"],
+          benefits: ["Direct Clicks", "Measurable ROI", "High Engagement"],
+        },
+        {
+          title: "In-Cabin Assets",
+          subtitle: "Captive Attention",
+          description: "Branded tray tables and Hello 6E magazine placements ensure 100% captive attention of HNI travellers.",
+          image: "https://images.unsplash.com/photo-1436491865332-7a61a109c05d?w=400&h=400&fit=crop",
+          uses: ["Tray Tables", "Magazine Ads", "Grab Handles"],
+          benefits: ["Zero distractions", "Elite recall", "Premium reach"],
+        },
+      ],
+    },
+    useCases: {
+      title: "About Indigo Flyway",
+      subtitle: "Connecting 78 Indian & 26 International destinations.",
+      items: [
+        {
+          title: "Unmatched Reach",
+          description: "Connecting over 78 domestic destinations with a fleet of 304+ aircraft and 1600+ daily flights.",
+          icon: "ph-airplane",
+        },
+        {
+          title: "On-Time Performance",
+          description: "A staggering 88.6% on-time performance rate, building trust with millions of travellers.",
+          icon: "ph-clock",
+        },
+        {
+          title: "International Scope",
+          description: "Reach worldwide via codeshare partners like Turkish Airlines, KLM, Air France, Qantas, and more.",
+          icon: "ph-globe",
+        },
+      ],
+    },
+    cta: {
+      title: "Take Your Brand Sky-High",
+      description: "Leverage Asia's largest low-cost carrier network to reach premium flyers across India and the globe.",
+      buttonText: "Inquire Inflight Rates",
+      icon: "ph-airplane-takeoff",
+    },
+  },
+  {
+    slug: "cab-fleet-branding",
+    title: "Cab & Fleet Branding",
+    tagline: "Continuous Urban Visibility",
+    pillar: "transit",
+    pillarColor: "#ff6b63",
+    pillarColorBg: "bg-brand-coral",
+    hero: {
+      badge: "Moving Billboards",
+      heading: "Cab & Fleet",
+      headingHighlight: "Advertising",
+      description:
+        "Turning premium Ola, Uber, and corporate fleets into moving billboards. These vehicles cover 100+ km daily, predominantly in high-income tech corridors and shopping hubs.",
+      bgImage: "/assets/images/services/transit/cab/WhatsApp Image 2026-03-07 at 1.18.02 PM.jpeg",
+      gradientOverlay: "bg-gradient-to-r from-brand-navy via-brand-navy/90 to-brand-navy/40",
+      stats: [
+        { value: "100+ km", label: "Daily Coverage" },
+        { value: "24/7", label: "Visibility" },
+        { value: "Ola/Uber", label: "Network" },
+      ],
+    },
+    features: [
+      {
+        title: "Exterior Wraps",
+        description: "Full or partial car wraps that command attention on the road, 24 hours a day.",
+        image: "/assets/images/services/transit/cab/WhatsApp Image 2026-03-07 at 1.18.00 PM.jpeg",
+        items: ["Side Wraps", "Full Body", "Window Stickers"],
+      },
+      {
+        title: "In-Car Advertisement",
+        description: "Target the passenger directly with high-dwell internal media options during their ride.",
+        image: "/assets/images/services/transit/cab/WhatsApp Image 2026-03-07 at 1.17.58 PM.jpeg",
+        items: ["Headrest Covers", "Seat Back Pockets", "Internal Screens"],
+      },
+      {
+        title: "Tech Park Focus",
+        description: "Strategic routing through premium IT hubs and commercial zones for HNI engagement.",
+        image: "/assets/images/services/transit/cab/WhatsApp Image 2026-03-07 at 1.17.56 PM.jpeg",
+        items: ["Electronic City", "Whitefield", "Manyata Tech Park"],
+      },
+    ],
+    gallery: {
+      title: "Cab Branding Gallery",
+      subtitle: "Moving billboards across the city's tech hubs.",
+      images: [
+        { src: "/assets/images/services/transit/cab/WhatsApp Image 2026-03-07 at 1.18.02 PM.jpeg", alt: "Cab Branding 1" },
+        { src: "/assets/images/services/transit/cab/WhatsApp Image 2026-03-07 at 1.18.00 PM.jpeg", alt: "Cab Branding 2" },
+        { src: "/assets/images/services/transit/cab/WhatsApp Image 2026-03-07 at 1.17.58 PM.jpeg", alt: "Cab Branding 3" },
+      ],
+    },
+    showcase: {
+      title: "Recent Campaigns",
+      description: "Delivering success across diverse industries.",
+      items: [
+        {
+          title: "Consumer Electronics",
+          subtitle: "Philips, HP, Reliance Digital",
+          description: "High-impact frequency campaigns in tech corridors targeting IT professionals.",
+          image: "/assets/images/services/transit/cab/WhatsApp Image 2026-03-07 at 1.18.02 PM.jpeg",
+          uses: ["Product Launches", "Sale Announcements", "Brand Recall"],
+          benefits: ["Niche targeting", "High tech-park reach", "Elite exposure"],
+        },
+        {
+          title: "App-Based Services",
+          subtitle: "Flipkart, Swiggy, Quick Ride",
+          description: "Building massive trust and visibility for digital-first brands in urban centers.",
+          image: "/assets/images/services/transit/cab/WhatsApp Image 1.17.58 PM.jpeg",
+          uses: ["User Acquisition", "New Feature Launch", "Market Dominance"],
+          benefits: ["Digital-Physical Sync", "Mass City reach", "Hyper-local catch"],
+        },
+        {
+          title: "Banking & Finance",
+          subtitle: "Bank of Baroda, IDFC, AU Bank",
+          description: "Establishing brand authority and trust through premium transit presence.",
+          image: "/assets/images/services/transit/cab/WhatsApp Image 1.17.56 PM.jpeg",
+          uses: ["Trust Building", "Loan Offers", "Premium Services"],
+          benefits: ["Steady visibility", "HNI demographic", "Reliable recall"],
+        },
+      ],
+    },
+    cta: {
+      title: "Mobilize Your Brand",
+      description: "Connect with commuters across the city's most affluent corridors with our premium cab network.",
+      buttonText: "Request Cab Branding Rates",
+      icon: "ph-taxi",
     },
   },
 ];

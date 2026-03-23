@@ -51,7 +51,7 @@ export default function FeatureGrid({
                     {feature.description}
                   </p>
                   {feature.items && (
-                    <div className="flex flex-wrap justify-center sm:justify-start gap-2">
+                    <div className="flex flex-wrap justify-center sm:justify-start gap-2 mb-6">
                       {feature.items.map((item, j) => (
                         <span
                           key={j}
@@ -65,6 +65,12 @@ export default function FeatureGrid({
                           {item}
                         </span>
                       ))}
+                    </div>
+                  )}
+                  {feature.href && (
+                    <div className="inline-flex items-center gap-2 text-xs font-black uppercase tracking-widest transition-all group-hover:gap-3" style={{ color: pillarColor }}>
+                      <span>View Service</span>
+                      <i className="ph-bold ph-arrow-right" />
                     </div>
                   )}
                 </div>

@@ -1,6 +1,5 @@
 "use client";
 import { useEffect } from "react";
-import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function AOSProvider({
@@ -9,7 +8,9 @@ export default function AOSProvider({
   children: React.ReactNode;
 }) {
   useEffect(() => {
-    if (typeof window !== "undefined") {
+    // Dynamically import AOS only on the client
+    const initAOS = async () => {
+      const AOS = (await import("aos")).default;
       AOS.init({
         once: true,
         duration: 800,
@@ -17,7 +18,9 @@ export default function AOSProvider({
         delay: 0,
       });
       AOS.refresh();
-    }
+    };
+
+    initAOS();
   }, []);
 
   return <>{children}</>;

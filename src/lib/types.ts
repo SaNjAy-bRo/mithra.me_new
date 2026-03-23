@@ -32,6 +32,49 @@ export interface ServiceData {
     buttonText: string;
     icon: string;
   };
+  process?: {
+    title: string;
+    subtitle: string;
+    steps: {
+      number: string;
+      title: string;
+      description: string;
+    }[];
+  };
+  comparison?: {
+    title: string;
+    subtitle: string;
+    features: {
+      name: string;
+      options: {
+        label: string;
+        value: string;
+        highlight?: boolean;
+      }[];
+    }[];
+    columns: string[];
+  };
+  useCases?: {
+    title: string;
+    subtitle: string;
+    items: {
+      title: string;
+      description: string;
+      icon: string;
+    }[];
+  };
+  showcase?: {
+    title: string;
+    description: string;
+    items: {
+      title: string;
+      subtitle: string;
+      description: string;
+      image: string;
+      uses: string[];
+      benefits: string[];
+    }[];
+  };
 }
 
 export interface MegaMenuItem {

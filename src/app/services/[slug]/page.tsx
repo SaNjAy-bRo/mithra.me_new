@@ -5,6 +5,12 @@ import FeatureGrid from "@/components/sections/FeatureGrid";
 import GalleryGrid from "@/components/sections/GalleryGrid";
 import CTASection from "@/components/sections/CTASection";
 import type { Metadata } from "next";
+import CinemaTabs from "@/components/sections/CinemaTabs";
+import MediaShowcase from "@/components/sections/MediaShowcase";
+import LEDInventory from "@/components/sections/LEDInventory";
+import ComparisonTable from "@/components/sections/ComparisonTable";
+import ProcessSection from "@/components/sections/ProcessSection";
+import UseCases from "@/components/sections/UseCases";
 
 interface ServicePageProps {
   params: { slug: string };
@@ -24,10 +30,6 @@ export function generateMetadata({ params }: ServicePageProps): Metadata {
   };
 }
 
-import TheatreDropdown from "@/components/sections/TheatreDropdown";
-import LobbyDropdown from "@/components/sections/LobbyDropdown";
-import LEDInventory from "@/components/sections/LEDInventory";
-
 export default function ServicePage({ params }: ServicePageProps) {
   const service = getServiceBySlug(params.slug);
   if (!service) notFound();
@@ -35,24 +37,71 @@ export default function ServicePage({ params }: ServicePageProps) {
   return (
     <>
       <ServiceHero hero={service.hero} pillarColor={service.pillarColor} />
-      {params.slug === "cinema-advertising" && (
+      {params.slug === "cinema-advertising" ? (
         <>
-          <TheatreDropdown pillarColor={service.pillarColor} />
-          <LobbyDropdown pillarColor={service.pillarColor} />
+          {service.gallery && (
+            <GalleryGrid
+              images={service.gallery.images}
+              title={service.gallery.title}
+              subtitle={service.gallery.subtitle}
+            />
+          )}
+          <CinemaTabs pillarColor={service.pillarColor} />
+        </>
+      ) : (
+        <>
+          <FeatureGrid
+            features={service.features}
+            pillarColor={service.pillarColor}
+          />
+
+          {service.useCases ? (
+            <UseCases
+              pillarColor={service.pillarColor}
+              title={service.useCases.title}
+              subtitle={service.useCases.subtitle}
+              useCases={service.useCases.items}
+            />
+          ) : (
+            params.slug === "digital-wall-printing" && (
+              <UseCases pillarColor={service.pillarColor} />
+            )
+          )}
+
+          {service.showcase && (
+            <MediaShowcase
+              showcase={service.showcase}
+              pillarColor={service.pillarColor}
+            />
+          )}
+
+          {service.comparison && (
+            <ComparisonTable
+              comparison={service.comparison}
+              pillarColor={service.pillarColor}
+            />
+          )}
+
+          {service.process && (
+            <ProcessSection
+              process={service.process}
+              pillarColor={service.pillarColor}
+            />
+          )}
+
+          {params.slug === "led-advertising" && (
+            <LEDInventory pillarColor={service.pillarColor} />
+          )}
+
+          {service.gallery && (
+            <GalleryGrid
+              images={service.gallery.images}
+              title={service.gallery.title}
+              subtitle={service.gallery.subtitle}
+            />
+          )}
         </>
       )}
-      {params.slug === "led-advertising" && (
-        <LEDInventory pillarColor={service.pillarColor} />
-      )}
-      <FeatureGrid
-        features={service.features}
-        pillarColor={service.pillarColor}
-      />
-      <GalleryGrid
-        images={service.gallery.images}
-        title={service.gallery.title}
-        subtitle={service.gallery.subtitle}
-      />
       <CTASection cta={service.cta} />
     </>
   );
